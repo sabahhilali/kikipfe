@@ -1,0 +1,61 @@
+<?php
+
+namespace Faculte\AdminBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Contact
+ *@ORM\HasLifecycleCallbacks
+ * @ORM\Table(name="contact")
+ * @ORM\Entity(repositoryClass="Faculte\AdminBundle\Repository\ContactRepository")
+ */
+class Contact
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="nom", type="string", length=255)
+     */
+    private $nom;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="prenom", type="string", length=255)
+     */
+    private $prenom;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="email", type="string", length=255)
+     */
+    private $email;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="tel", type="string", length=255)
+     */
+    private $tel;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="message", type="text")
+     */
+    private $message;
+
+
+}
+

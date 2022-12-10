@@ -1,0 +1,68 @@
+{% extends "FaculteAdminBundle::Layout.html.twig" %}
+{% block content %}
+    <!-- BEGIN CONTENT -->
+    <div class="page-content-wrapper">
+        <!-- BEGIN CONTENT BODY -->
+        <div class="page-content">
+            <!-- BEGIN PAGE HEADER-->
+            <h3 class="page-title"> Gestion Des Tarifs <small> Liste </small>
+            </h3>
+
+
+            <div class="page-bar">
+                <ul class="page-breadcrumb">
+                    <li>
+                        <i class="icon-home"></i>
+                        <a href="{{ path('faculte_admin_homepage') }}">Accueil</a>
+                        <i class="fa fa-angle-right"></i>
+                    </li>
+                    <li>
+                        <div class="btn btn-circle border-red-mint"style="color: #e43a45">
+                            <i class="icon-notebook"></i>
+                            <span>Liste Tarif</span>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- BEGIN PORTLET-->
+                    <div class="portlet light form-fit bordered">
+                        <!-- BEGIN EXAMPLE TABLE PORTLET-->
+                        <div class="portlet light ">
+
+                            <div class="portlet-body">
+                            <table class="table table-striped table-bordered table-hover" id="sample_1">
+                                <thead style="background-color: #17C4BB">
+                                <tr style="color: white">
+                                    <th> Activité       </th>
+                                    <th> prix           </th>
+
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {% if Tarif is not empty %}
+                                    {% for tarif in Tarif %}
+                                        <tr>
+                                            <td> {{ tarif.activite.nomA }}</td>
+                                            <td> {{ tarif.prixT }}   </td>
+                                        </tr>
+
+                                    {% endfor %}
+                                {% endif %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- END EXAMPLE TABLE PORTLET-->
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	Bent - Bootstrap Landing Page Template by Dcrazed
+	Site: https://dcrazed.com/bent-app-landing-page-template/
+	Free for personal and commercial use under GNU GPL 3.0 license.
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bent | App Landing Page</title>
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900,400,300' rel='stylesheet'
+          type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic'
+          rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="{{ asset('bundles/facultefront/css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Owl Carousel Assets -->
+    <link href="{{ asset('bundles/facultefront/css/owl.carousel.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/facultefront/css/owl.theme.css') }}" rel="stylesheet">
+
+
+    <!-- Pixeden Icon Font -->
+    <link rel="stylesheet" href="{{ asset('bundles/facultefront/css/Pe-icon-7-stroke.css') }}">
+
+    <!-- Font Awesome -->
+    <link href="{{ asset('bundles/facultefront/css/font-awesome.min.css') }}" rel="stylesheet">
+
+
+    <!-- PrettyPhoto -->
+    <link href="{{ asset('bundles/facultefront/css/prettyPhoto.css') }}" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('bundles/facultefront/favicon.ico') }}"/>
+
+    <!-- Style -->
+    <link href="{{ asset('bundles/facultefront/css/style.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('bundles/facultefront/css/animate.css') }}" rel="stylesheet">
+    <!-- Responsive CSS -->
+    <link href="{{ asset('bundles/facultefront/css/responsive.css') }}" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- PRELOADER -->
+<div class="spn_hol">
+    <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+</div>
+
+<!-- END PRELOADER -->
+
+<!-- =========================
+    START ABOUT US SECTION
+============================== -->
+{% block content %}
+{% endblock %}
+<section class="solution parallax home-parallax page" id="HOME" style="margin-top: -13%">
+    <h2></h2>
+    <div class="section_overlay">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <!-- NAV -->
+                        <li><a href="{{ path('faculte_front_homepage') }}">ACCUEIL</a></li>
+                        <li><a href=""class="dropdown-toggle active" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">PRÉSENTATION <span class="caret"></span></a>
+                            <ul class="dropdown-menu" style="background: black; background-color: transparent;">
+                                <li><a href="{{ path('faculte_front_presentation') }}" style="color:#A9ADB0;background: #333333; background-color: transparent;">Qui somme nous ? </a></li>
+                                <li><a href="{{ path('faculte_front_soultion') }}" style="color:#A9ADB0;background: #333333; background-color: transparent;">Les solutions Med Training</a></li>
+                                <li><a href="{{ path('faculte_front_partenaire') }}" style="color:#A9ADB0;background: #333333; background-color: transparent;">Nos partenaires</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#FEATURES">ACTUALITÉS</a></li>
+                        <li><a href="#SCREENS">GALERIE</a></li>
+                        <li><a href=""class="dropdown-toggle active" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">PROGRAMME <span class="caret"></span></a>
+                            <ul class="dropdown-menu" style="background: #1A1D22;background-color: transparent; ">
+                                <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#" style="color:#A9ADB0;background: #1A1D22;background-color: transparent;">Formations</a>
+                                    <ul class="dropdown-menu"style="background: #1A1D22;background-color: transparent;">
+                                        <li><a href="{{ path('faculte_front_formationacc') }}" style="color:#A9ADB0;background:  #1A1D22;background-color: transparent; ">Accélérées</a></li>
+                                        <li><a href="{{ path('faculte_front_formationadulte') }}" style="color:#A9ADB0;background:  #1A1D22;background-color: transparent; ">Pour les adultes</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#" style="color:#A9ADB0;background:  #1A1D22;background-color: transparent; ">Langues</a>
+                                    <ul class="dropdown-menu"style="background:#1A1D22;background-color: transparent; ">
+                                        <li><a href="{{ path('faculte_front_francais1') }}"  style="color:#A9ADB0;background:  #1A1D22;background-color: transparent;">Français</a></li>
+                                        <li><a href="{{ path('faculte_front_anglais1') }}"  style="color:#A9ADB0;background:  #1A1D22;background-color: transparent; ">Anglais</a></li>
+                                        <li><a href="{{ path('faculte_front_turc1') }}"  style="color:#A9ADB0;background:  #1A1D22;background-color: transparent; ">Truc</a></li>
+                                        <li><a href="{{ path('faculte_front_allemand1') }}" style="color:#A9ADB0;background:  #1A1D22;background-color: transparent; ">Allemand</a></li>
+                                        <li><a href="{{ path('faculte_front_russe1') }}"  style="color:#A9ADB0;background:  #1A1D22;background-color: transparent; ">Russe</a></li>
+                                        <li><a href="{{ path('faculte_front_espagnol1') }}"  style="color:#A9ADB0;background:  #1A1D22;background-color: transparent; ">Espagnol</a></li>
+                                        <li><a href="{{ path('faculte_front_italien1') }}" style="color:#A9ADB0;background:  #1A1D22;background-color: transparent; ">Italien</a></li>
+                                        <li><a href="{{ path('faculte_front_chinoi1') }}"  style="color:#A9ADB0;background:  #1A1D22;background-color: transparent; ">Chinoi</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="{{ path('faculte_front_InscriptionLig') }}">INSCRIPTION</a></li>
+                        <li><a href="#CONTACT">CONTACT </a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container- -->
+        </nav>
+
+        <div class="container home-container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo text-center">
+                        <!-- LOGO -->
+                        <img width="125" height="55" src="{{ asset('bundles/facultefront/images/') }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+
+{% block dev %}
+    {% block titre %}
+    {% endblock %}
+{% endblock %}
+{% block description %}
+{% endblock %}
+
+
+<!-- END HEADER SECTION -->
+
+
+<!-- =========================
+     FOOTER
+============================== -->
+
+<section class="copyright">
+    <h2></h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="copy_right_text">
+                    <!-- COPYRIGHT TEXT -->
+                    <p>Copyright © 2017 Medtraining.</p>
+                    <p>| Site by <a href="http://www.smartsolution-tn.com/">Smart Tech</a></p>
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="scroll_top">
+                    <a href="#HOME"><i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END FOOTER -->
+
+
+<!-- =========================
+     SCRIPTS
+============================== -->
+
+
+<script src="{{ asset('bundles/facultefront/js/jquery.min.js') }}"></script>
+<script src="{{ asset('bundles/facultefront/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('bundles/facultefront/js/owl.carousel.js') }}"></script>
+<script src="{{ asset('bundles/facultefront/js/jquery.fitvids.js') }}"></script>
+<script src="{{ asset('bundles/facultefront/js/smoothscroll.js') }}"></script>
+<script src="{{ asset('bundles/facultefront/js/jquery.parallax-1.1.3.js') }}"></script>
+<script src="{{ asset('bundles/facultefront/js/jquery.prettyPhoto.js') }}"></script>
+<script src="{{ asset('bundles/facultefront/js/jquery.ajaxchimp.min.js') }}"></script>
+<script src="{{ asset('bundles/facultefront/js/jquery.ajaxchimp.langs.js') }}"></script>
+<script src="{{ asset('bundles/facultefront/js/wow.min.js') }}"></script>
+<script src="{{ asset('bundles/facultefront/js/waypoints.min.js') }}"></script>
+<script src="{{ asset('bundles/facultefront/js/jquery.counterup.min.js') }}"></script>
+<script src="{{ asset('bundles/facultefront/js/script.js') }}"></script>
+
+
+</body>
+</html>

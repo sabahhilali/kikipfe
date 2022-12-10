@@ -1,0 +1,58 @@
+faculte_adherant_homepage:
+    path:     /
+    defaults: { _controller: FaculteAdherantBundle:Default:index }
+
+faculte_adherent_profil:
+  path:     /profil_adherent
+  defaults: { _controller: FaculteAdherantBundle:Adherent:Profil}
+
+faculte_adherent_modifier_adherent:
+    path:     /modifier_adherent
+    defaults: { _controller: FaculteAdherantBundle:Adherent:modifier}
+
+
+
+faculte_adherent_ajouter_galeriepersonnel:
+  path:     /ajouter_galeriepersonnel
+  defaults: { _controller: FaculteAdherantBundle:Galeriepersonnel:ajouterGaleriepersonnel}
+
+faculte_adherent_modifier_galeriepersonnel:
+    path:     /modifier_galeriepersonnel/{idGp}
+    defaults: { _controller: FaculteAdherantBundle:Galeriepersonnel:modifierGaleriepersonnel}
+
+faculte_adherent_supprimer_galeriepersonnel:
+    path:     /supprimer_galeriepersonnel/{idGp}
+    defaults: { _controller: FaculteAdherantBundle:Galeriepersonnel:supprimerGaleriepersonnel}
+
+faculte_adherent_afficher_galeriepersonnel:
+    path:     /afficher_galeriepersonnel
+    defaults: { _controller: FaculteAdherantBundle:Galeriepersonnel:afficherGaleriepersonnel}
+
+
+
+faculte_adherent_galerie:
+    path:     /adherent_galerie
+    defaults: { _controller: FaculteAdherantBundle:Galerie:afficherGalerie}
+
+faculte_adherent_produit:
+    path:     /adherent_produit
+    defaults: { _controller: FaculteAdherantBundle:Produit:afficherProduit}
+
+faculte_adherent_activite:
+    path:     /adherent_activite
+    defaults: { _controller: FaculteAdherantBundle:Activite:afficherActivite}
+
+faculte_adherent_tarif:
+    path:     /adherent_tarif
+    defaults: { _controller: FaculteAdherantBundle:Tarif:afficherTarif}
+
+
+
+faculte_adherent_exercice:
+    path:     /adherent_exercice
+    defaults: { _controller: FaculteAdherantBundle:Exercice:afficherExercice}
+
+faculte_adherent_suit_exercice:
+    path:     /adherent_suit_exercice/{idE}
+    defaults: { _controller: FaculteAdherantBundle:Exercice:suitExercice}
+

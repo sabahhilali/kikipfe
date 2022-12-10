@@ -1,0 +1,40 @@
+{% extends "FaculteAdherantBundle::layoutAdherent.html.twig" %}
+
+{% block content %}
+    <div class="main">
+        <!-- end content-top -->
+        <div class="container">
+            <!-- end content-middle -->
+            <div class="row about">
+
+                <div class="col-md-12">
+                    <h3 class="m_2">Galerie</h3>
+                    <div id="ca-container" class="ca-container">
+                        <div class="ca-wrapper">
+                            {% if Galerie is not empty %}
+                            {% for galerie in Galerie %}
+                            <div class="ca-item ca-item-1">
+                                <div class="ca-item-main">
+                                    <img src="{{ asset('files/galeries/'~galerie.id~'/'~galerie.pathFile) }}" alt="Galerie"  style="width:250px; height:250px;">
+                                </div>
+                            </div>
+                            {% endfor %}
+                            {% endif %}
+                        </div>
+                    </div>
+
+                    <script type="text/javascript">
+                        $('#ca-container').contentcarousel();
+                    </script>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+{% block js %}
+    <script type="text/javascript" src="{{ asset('bundles/facultefront/js/jquery.mousewheel.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('bundles/facultefront/js/jquery.contentcarousel.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('bundles/facultefront/js/jquery.easing.1.3.js')}}"></script>
+{% endblock %}

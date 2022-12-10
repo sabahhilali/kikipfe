@@ -1,0 +1,63 @@
+faculte_coach_homepage:
+    path:     /
+    defaults: { _controller: FaculteCoachBundle:Default:index }
+
+
+faculte_coach_profil:
+  path:     /profil_coach
+  defaults: { _controller: FaculteCoachBundle:Coach:Profil}
+
+faculte_coach_modifier_coach:
+    path:     /modifier_coach
+    defaults: { _controller: FaculteCoachBundle:Coach:modifier}
+
+
+faculte_coach_commentaire:
+    path:     /commentairegalerie_coach/{idCom}
+    defaults: { _controller: FaculteCoachBundle:Commentaire:commentaire}
+
+
+
+
+
+faculte_coach_ajouter_exercice:
+  path:     /ajouter_exercice
+  defaults: { _controller: FaculteCoachBundle:Exercice:ajouterExercice}
+
+faculte_coach_liste_exercice:
+    path:     /liste_exercice
+    defaults: { _controller: FaculteCoachBundle:Exercice:listeExercice}
+
+faculte_coach_modifier_exercice:
+    path:     /modifier_exercice/{idE}
+    defaults: { _controller: FaculteCoachBundle:Exercice:modifierExercice}
+
+faculte_coach_supprimer_exercice:
+    path:     /supprimer_exercice/{idE}
+    defaults: { _controller: FaculteCoachBundle:Exercice:supprimerExercice}
+
+faculte_coach_suit_exercice:
+    path:     /suit_exercice/{idE}
+    defaults: { _controller: FaculteCoachBundle:Exercice:suitExercice}
+
+
+
+
+
+
+faculte_coach_galerie:
+    path:     /coach_galerie
+    defaults: { _controller: FaculteCoachBundle:Galerie:afficherGalerie}
+
+faculte_coach_produit:
+    path:     /coach_produit
+    defaults: { _controller: FaculteCoachBundle:Produit:afficherProduit}
+
+faculte_coach_activite:
+    path:     /coach_activite
+    defaults: { _controller: FaculteCoachBundle:Activite:afficherActivite}
+
+faculte_coach_tarif:
+    path:     /coach_tarif
+    defaults: { _controller: FaculteCoachBundle:Tarif:afficherTarif}
+

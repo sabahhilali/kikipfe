@@ -1,0 +1,40 @@
+{% extends "FaculteCoachBundle::LayoutCoach.html.twig" %}
+
+{% block content %}
+    <div class="main">
+        <!-- end content-top -->
+        <div class="container">
+            <!-- end content-middle -->
+            <div class="row about">
+
+                <div class="col-md-12">
+                    <h3 class="m_2">Produits</h3>
+                    <div id="ca-container" class="ca-container">
+                        <div class="ca-wrapper">
+                            {% if Produit is not empty %}
+                                {% for produit in Produit %}
+                                    <div class="ca-item ca-item-1">
+                                        <div class="ca-item-main">
+                                            <img src="{{ asset('files/produitS/'~produit.id~'/'~produit.pathFile) }}" alt="Produit" style="width:250px; height:250px;">
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                            {% endif %}
+                        </div>
+                    </div>
+
+                    <script type="text/javascript">
+                        $('#ca-container').contentcarousel();
+                    </script>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+{% block js %}
+    <script type="text/javascript" src="{{ asset('bundles/facultefront/js/jquery.mousewheel.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('bundles/facultefront/js/jquery.contentcarousel.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('bundles/facultefront/js/jquery.easing.1.3.js')}}"></script>
+{% endblock %}

@@ -1,0 +1,64 @@
+{% extends "FaculteAdherantBundle::layoutAdherent.html.twig" %}
+{% block content %}
+    <div class="main">
+        <div class="about_banner_img">
+            <img src="images/price.jpg" class="img-responsive" alt=""/></div>
+        <div class="about_banner_wrap">
+            <h1 class="m_11">Votre Profil</h1>
+        </div>
+        <div class="border"> </div>
+        <div class="container">
+            {% if Adherent is not empty %}
+            {% for adherent in Adherent %}
+            <div class="row price_plans">
+                <h3 class="m_2">Bienvenus : " {{ adherent.nom    }} {{ adherent.prenom }}"</h3>
+                <div class="price_plans_box">
+
+                    <div class="col-md-4">
+                        <ul class="list-unstyled profile-nav">
+                            <li>
+                                <img src="{{ asset('files/adherents/'~adherent.id~'/'~adherent.pathFile) }}"
+                                     alt="coach" style="width: 300px;height: 300px;">
+                            </li>
+                        </ul>
+                    </div>
+                    <h1 style="color: black;">  <br> </h1>
+                    <br><br><br>
+                    <li>
+                        Numéro de CIN : {{ adherent.cin }}
+                    </li>
+                    <br>
+                    <li>
+                        Date de Naissance : {{ adherent.dateNaiss }}
+                    </li>
+                    <br>
+                    <li>
+                        Lieu de Naissance : {{ adherent.lieuNaiss }}
+                    </li>
+                    <br>
+                    <li>
+                        Sexe : {{ adherent.sexe }}
+                    </li>
+                    <br>
+                    <li>
+                        Télèphone    : {{ adherent.tel }}
+                    </li>
+                    <br>
+                    <li>
+                        Adresse : {{ adherent.adrss }}
+                    </li>
+                    <br>
+
+                    <div class="btn2">
+                        <a href="{{ path('faculte_adherent_modifier_adherent') }}">Modifier</a>
+                    </div>
+
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

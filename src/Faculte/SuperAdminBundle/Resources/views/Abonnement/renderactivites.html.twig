@@ -1,0 +1,7 @@
+<select id="projet_adminbundle_abonnement_tarifs" name="projet_adminbundle_abonnement[tarifs]" required="required" class="form-control"><option value="" selected="selected">Choisissez un tarif</option>
+    {%if tarif is not empty%}
+        {%for tarif in tarif %}
+            <option value="{{tarif.id}}" id="{{tarif.id}}">{{tarif.prixT}}</option>
+        {%endfor%}
+    {%endif%}
+</select>

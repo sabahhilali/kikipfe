@@ -1,0 +1,88 @@
+{% extends "FaculteSuperAdminBundle::LayoutSuper.html.twig" %}
+ {% block content  %}
+<!-- BEGIN CONTENT -->
+<div class="page-content-wrapper">
+    <!-- BEGIN CONTENT BODY -->
+    <div class="page-content">
+        <!-- BEGIN PAGE HEADER-->
+        <h3 class="page-title"> Gestion Des Activités <small> Modifier </small> </h3>
+
+
+              <div class="page-bar">
+            <ul class="page-breadcrumb">
+                <li>
+                    <i class="icon-home"></i>
+                    <a href="{{ path('faculte_super_admin_homepage') }}">Accueil</a>
+                    <i class="fa fa-angle-right"></i>
+                </li>
+                <li>
+                    <i class="icon-notebook"></i>
+                    <a href="{{ path('faculte_super_admin_liste_activite') }}"> Liste Des Activités </a>
+                    <i class="fa fa-angle-right"></i>
+                </li>
+                <li>
+                    <div class="btn btn-circle border-red-mint"style="color: #e43a45">
+                        <i class="fa fa-edit"></i>
+                        <span> Modifier L'Activité</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+         <div class="row">
+             <div class="col-md-12 ">
+                 <!-- BEGIN SAMPLE FORM PORTLET-->
+                 <div class="portlet light ">
+
+                     <div class="portlet-title">
+                         <div class="caption font-red-sunglo">
+                              <i class="fa fa-edit font-red-sunglo"></i>
+                             <span class="caption-subject bold uppercase"> Modifier Activité </span>
+                         </div>
+                     </div>
+
+                     <div class="portlet-body form">
+                         <form enctype="multipart/form-data" class="form-horizontal" action="{{ path('faculte_super_admin_modifier_activite',{'idA':Activite.id}) }}" method="POST" role="form" style="margin-left: 25%">
+                             {{ form_errors(form) }}
+                             <div class="form-body">
+                                 <div class="form-group">
+                                     <label>Nom</label>
+                                     <div class="input-group col-md-4">
+                                     <span class="input-group-addon"> <i class="fa fa-clone"></i></span>
+                                         {{ form_widget(form.nomA,{'attr': {'class': 'form-control','placeholder':'Nom' }} ) }}
+                                     </div>
+                                 </div>
+
+                                 <div class="form-group">
+                                     <label>Description</label>
+                                     <div class="input-group col-md-4">
+                                     <span class="input-group-addon"> <i class="fa fa-commenting-o"></i></span>
+                                         {{ form_widget(form.descriptionA,{'attr': {'class': 'form-control','placeholder':'Description' }} ) }}
+                                     </div>
+                                 </div>
+
+                                 <div class="form-group">
+                                     <label>Fichier</label>
+                                     <div class="input-group col-md-4">
+                                         <span class="input-group-addon"><i class="fa fa-file-o"></i></span>
+                                         {{ form_widget(form.pathFile,{'attr': {'class': 'form-control' }} ) }}
+                                     </div>
+                                 </div>
+                                 {{ form_rest(form) }}
+                             </div>
+                             <div class="form-actions" style="margin-left: 15%">
+                                 <button type="submit" class="btn blue">Mettre à jour</button>
+                                 <button type="button" class="btn default" onclick='location.href="{{ path('faculte_super_admin_liste_activite') }}"'>Annuler</button>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+                 <!-- END SAMPLE FORM PORTLET-->
+             </div>
+         </div>
+    </div>
+</div>
+ {% endblock %}

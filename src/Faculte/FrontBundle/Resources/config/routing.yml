@@ -1,0 +1,24 @@
+faculte_front_homepage:
+    path:     /
+    defaults: { _controller: FaculteFrontBundle:Default:index }
+
+faculte_front_ajouter:
+    path:     /ajouter
+    defaults: { _controller: FaculteFrontBundle:Client:ajouterClient }
+
+faculte_front_galerie:
+    path:     /galerie
+    defaults: { _controller: FaculteFrontBundle:Galerie:afficherGalerie}
+
+faculte_front_produit:
+    path:     /produit
+    defaults: { _controller: FaculteFrontBundle:Produit:afficherProduit}
+
+faculte_front_activite:
+    path:     /activite
+    defaults: { _controller: FaculteFrontBundle:Activite:afficherActivite}
+
+faculte_front_tarif:
+    path:     /tarif
+    defaults: { _controller: FaculteFrontBundle:Tarif:afficherTarif}
+

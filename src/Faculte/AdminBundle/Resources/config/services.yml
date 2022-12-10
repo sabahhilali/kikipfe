@@ -1,0 +1,9 @@
+services:
+#    faculte_admin.example:
+#        class: Faculte\AdminBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
+
+    authentication_handler:
+        class: Faculte\AdminBundle\Controller\AuthentificationHandler
+        arguments: ['@router']
+

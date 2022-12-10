@@ -1,0 +1,106 @@
+{% extends "FaculteSuperAdminBundle::LayoutSuper.html.twig" %}
+{% block content %}
+<!-- BEGIN CONTENT -->
+<div class="page-content-wrapper">
+    <!-- BEGIN CONTENT BODY -->
+    <div class="page-content">
+        <!-- BEGIN PAGE HEADER-->
+        <h3 class="page-title"> Gestion Des Abonnements
+            <small> Liste</small>
+        </h3>
+
+
+        <div class="page-bar">
+            <ul class="page-breadcrumb">
+                <li>
+                    <i class="icon-home"></i>
+                    <a href="{{ path('faculte_super_admin_homepage') }}">Accueil</a>
+                    <i class="fa fa-angle-right"></i>
+                </li>
+                <li>
+                    <div class="btn btn-circle border-red-mint"style="color: #e43a45">
+                        <i class="icon-notebook"></i>
+                        <span>Liste Abonnement</span>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <!-- BEGIN PORTLET-->
+                <div class="portlet light form-fit bordered">
+                    <!-- BEGIN EXAMPLE TABLE PORTLET-->
+                    <div class="portlet light ">
+                        <div class="portlet-title">
+                            <div class="caption font-dark">
+                                <a class="btn green-sharp btn-outline  btn-block " href="{{ path('faculte_super_admin_ajouter_abonnement') }}">
+                                    <i class="fa fa-plus-circle "> Abonnement </i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portlet-body">
+                            <table class="table table-striped table-bordered table-hover" id="sample_1">
+                                <thead style="background-color: #17C4BB">
+                                <tr style="color: white">
+                                    <th> Adhérent       </th>
+                                    <th> Activite       </th>
+                                    <th> Tarif          </th>
+                                    <th>Date de Création</th>
+                                    <th> Actions        </th>
+                                </tr>
+                                </thead>
+                                {% if Abonnement is not empty %}
+                                    {% for abonnement in Abonnement %}
+
+                                        <tr>
+
+                                            <td>
+
+                                                {{ abonnement.adherent.nom }}  {{ abonnement.adherent.prenom }}
+                                               </td>
+                                            <td>
+
+                                                {{ abonnement.activite.nomA }}
+
+                                            </td>
+                                            <td>
+                                                {% if abonnement.activite is not empty  %}
+                                                    {% for tarifs in abonnement.activite  %}
+                                               {{ tarifs.prixT }}
+                                                    {% endfor %}
+                                                {% endif %}
+
+
+                                            </td>
+                                            <td>{{ abonnement.dateCreation|date('d-m-Y') }}</td>
+                                            <td>
+                                                <a href="{{ path('faculte_super_admin_suit_abonnement',{'idAb':abonnement.id})}}" class="btn btn-circle btn-icon-only green">
+                                                    <i class="icon-magnifier font-white"> </i>
+                                                </a>
+
+                                                <a href="{{ path('faculte_super_admin_modifier_abonnement',{'idAb':abonnement.id}) }}" class="btn btn-circle btn-icon-only blue">
+                                                    <i class="fa fa-edit font-white"></i>
+                                                </a>
+
+                                                <a href="#modal-delete{{ abonnement.id }}"  data-toggle="modal" class="btn btn-circle btn-icon-only red">
+                                                    <i class="fa fa-trash-o font-white"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        {% endfor %}
+                                {% endif %}
+                            </table>
+                        </div>
+                    </div>
+                    <!-- END EXAMPLE TABLE PORTLET-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    {% endblock %}
+
+

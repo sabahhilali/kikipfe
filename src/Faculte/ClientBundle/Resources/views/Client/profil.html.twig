@@ -1,0 +1,58 @@
+{% extends "FaculteClientBundle::Client.html.twig" %}
+{% block content %}
+
+
+<div class="main">
+    <div class="about_banner_img">
+        <img src="images/price.jpg" class="img-responsive" alt=""/></div>
+    <div class="about_banner_wrap">
+        <h1 class="m_11">Votre Profil</h1>
+    </div>
+    <div class="border"> </div>
+    <div class="container">
+        {% if Client is not empty %}
+        {% for client in Client %}
+        <div class="row price_plans">
+            <h3 class="m_2">Bienvenus : " {{ client.nom    }} {{ client.prenom }}"</h3>
+            <div class="price_plans_box">
+
+            <div class="col-md-4">
+                <ul class="list-unstyled profile-nav">
+                    <li>
+                        <img src="{{ asset('files/clients/'~client.id~'/'~client.pathFile) }}"
+                             alt="client" style="width: 300px;height: 300px;">
+                    </li>
+                </ul>
+            </div>
+            <h1 style="color: black;">  <br> </h1>
+            <br><br><br>
+                <li>
+                    Numéro de CIN : {{ client.cin }}
+                </li>
+                <br>
+                <li>
+                     Date de Naissance : {{ client.dateNaiss }}
+                </li>
+                <br>
+                <li>
+                     Lieu de Naissance : {{ client.lieuNaiss }}
+                </li>
+                <br>
+                <li>
+                     Sexe : {{ client.sexe }}
+                </li>
+                <br>
+                <li>
+                     Télèphone    : {{ client.tel }}
+                </li>
+                <br>
+                <li>
+                    Adresse : {{ client.adrss }}
+                </li>
+                <div class="btn2">
+                    <a href="{{ path('faculte_client_modifier') }}">Modifier</a>
+                </div>
+
+        {% endfor %}
+    {% endif %}
+{% endblock %}

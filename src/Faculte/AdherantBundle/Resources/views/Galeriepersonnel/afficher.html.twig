@@ -1,0 +1,63 @@
+{% extends "FaculteAdherantBundle::layoutAdherent.html.twig" %}
+{% block content %}
+    <!-- BEGIN CONTENT -->
+    <div class="main">
+        <div class="about_banner_img">
+            <img src="images/price.jpg" class="img-responsive" alt=""/></div>
+        <div class="about_banner_wrap">
+            <h1 class="m_11">Galerie des Adhérents</h1>
+        </div>
+        <div class="border"> </div>
+        <div class="container">
+            <div class="row price_plans">
+                <h3 class="m_2">Votre Galerie</h3>
+
+                <div class="row">
+                    <div class="btn2">
+                        <a href="{{ path('faculte_adherent_ajouter_galeriepersonnel')}}"> + Galerie Personnel </a>
+                    </div>
+                    <br> <br>
+                    <div class="col-md-3">
+                        <form action="#" method="get">
+                            <div class="input-group">
+                                <input class="form-control" id="system-search" name="q" placeholder="Search for" required>
+                                <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default"></button>
+                    </span>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-md-9">
+                        <table class="table table-list-search">
+                            <thead>
+                            <tr>
+                                <th> Description </th>
+                                <th> Fichier     </th>
+                                <th> Actions </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% if Galeriepersonnel is not empty %}
+                                {% for galeriepersonnel in Galeriepersonnel %}
+                                    <tr>
+                                        <td> {{ galeriepersonnel.description }}</td>
+                                        <td>
+                                            <div class="cbp-caption-defaultWrap">
+                                                <img src="{{ asset('files/galeriepersonnels/'~galeriepersonnel.id~'/'~galeriepersonnel.pathFile) }}" alt="galeriepersonnel" class="img-circle"  style="width: 50px;height: 50px;">
+                                            </div>
+                                        </td>
+                                        <td><a href="{{ path('faculte_adherent_modifier_galeriepersonnel',{'idGp':galeriepersonnel.id})}}" style="height: 25px" style="color: #e43a45" class="label label-info">Modifier</a></td>
+                                        <td><a href="{{ path('faculte_adherent_supprimer_galeriepersonnel',{'idGp':galeriepersonnel.id})}}" style="height: 25px" class="label label-info">Supprimer</a></td>
+
+                                    </tr>
+                                {% endfor %}
+                            {% endif %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div></div>
+{% endblock %}
+

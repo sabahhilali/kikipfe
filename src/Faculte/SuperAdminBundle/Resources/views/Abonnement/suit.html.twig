@@ -1,0 +1,62 @@
+{% extends "FaculteSuperAdminBundle::LayoutSuper.html.twig" %}
+ {% block content %}
+     <!-- BEGIN CONTENT -->
+     <div class="page-content-wrapper">
+         <!-- BEGIN CONTENT BODY -->
+         <div class="page-content">
+             <!-- BEGIN PAGE HEADER-->
+             <h3 class="page-title"> Gestion Des Paiments
+                 <small> Afficher la suit ...</small>
+             </h3>
+
+
+             <div class="page-bar">
+                 <ul class="page-breadcrumb">
+                     <li>
+                         <i class="icon-home"></i>
+                         <a href="{{ path('faculte_super_admin_admin_homepage') }}">Accueil</a>
+                         <i class="fa fa-angle-right"></i>
+                     </li>
+                     <li>
+                         <i class="icon-notebook"></i>
+                         <a href="{{ path('faculte_super_admin_admin_liste_paiment') }}"> Liste Des Paiments </a>
+                         <i class="fa fa-angle-right"></i>
+                     </li>
+                     <div class="btn btn-circle border-red-mint"style="color: #e43a45">
+                         <i class="icon-magnifier"></i>
+                         <span> Afficher la suit d'un Paiment </span>
+                     </div>
+
+                 </ul>
+             </div>
+
+
+
+             <div class="row">
+                 <div class="col-md-12 ">
+                     <!-- BEGIN SAMPLE FORM PORTLET-->
+                     <div class="portlet light ">
+
+                         <div class="portlet-title">
+                             <div class="caption font-red-sunglo">
+                                 <i class="fa fa-file-text-o font-red-sunglo"></i>
+                                 <span class="caption-subject bold uppercase"> Afficher la suit de Paiment </span>
+                             </div>
+                         </div>
+
+                         <div class="portlet-body">
+                             <div class="mt-element-step">
+                                 <div class="row step-line">
+
+
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- END SAMPLE FORM PORTLET-->
+                 </div>
+             </div>
+         </div>
+     </div>
+
+ {% endblock %}

@@ -1,0 +1,82 @@
+{% extends "FaculteAdherantBundle::layoutAdherent.html.twig" %}
+ {% block content %}
+     <!-- BEGIN CONTENT -->
+     <div class="main">
+         <div class="about_banner_img">
+             <img src="images/price.jpg" class="img-responsive" alt=""/></div>
+         <div class="about_banner_wrap">
+             <h1 class="m_11">Suit Exercice</h1>
+         </div>
+         <div class="border"> </div>
+         <div class="container">
+             <div class="row price_plans">
+                 <h3 class="m_2">Exercice  {{ Exercice.id }} </h3>
+                 <div class="price_plans_box">
+
+
+
+                     <div class="row">
+                         <div class="col-md-12 ">
+                             <!-- BEGIN SAMPLE FORM PORTLET-->
+                             <div class="portlet light ">
+
+                                 <div class="profile">
+                                     <div class="tabbable-line tabbable-full-width">
+                                         <ul class="nav nav-tabs">
+                                             <li class="active">
+                                                 <a href="#tab_1_1" data-toggle="tab" aria-expanded="true">
+                                                     <i class="icon-pin" style="color: gold"></i>
+                                                     {{ Exercice.id }}
+                                                 </a>
+                                             </li>
+
+                                         </ul>
+                                         <div class="tab-content">
+                                             <div class="tab-pane active" id="tab_1_1">
+                                                 <div class="row">
+                                                     <div class="col-md-4">
+                                                         <ul class="list-unstyled profile-nav">
+                                                             <li>
+                                                                 <img src="{{ asset('files/exercices/'~Exercice.id~'/'~Exercice.pathFile) }}"
+                                                                      alt="Exercice" style="width: 300px;height: 300px;">
+                                                             </li>
+                                                         </ul>
+                                                     </div>
+                                                     <div class="col-md-8">
+                                                         <div class="row">
+
+                                                             <div class="col-md-8 profile-info">
+                                                                 <h1 class="font-green sbold uppercase">{{ Exercice.id }} </h1>
+                                                                 <br><br><br>
+                                                                 <ul class="list-inline">
+                                                                     <h4>
+                                                                         <li>
+                                                                             Déscription : {{ Exercice.description }}
+                                                                         </li>
+                                                                         <br>
+
+                                                                     </h4>
+                                                                 </ul>
+                                                             </div>
+                                                             <!--end col-md-8-->
+                                                         </div>
+                                                         <!--end row-->
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <!--end tab-pane-->
+
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+
+                         <!-- END SAMPLE FORM PORTLET-->
+                     </div>
+                 </div></div></div></div>
+
+     </div>
+     </div>
+
+ {% endblock %}

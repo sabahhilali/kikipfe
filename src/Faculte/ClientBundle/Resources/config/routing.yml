@@ -1,0 +1,35 @@
+faculte_client_homepage:
+    path:     /
+    defaults: { _controller: FaculteClientBundle:Default:index }
+
+
+
+
+faculte_client_modifier:
+    path:     /client_modifier
+    defaults: { _controller: FaculteClientBundle:Default:modifier }
+
+faculte_client_index:
+    path:     /client_index
+    defaults: { _controller: FaculteClientBundle:Default:profil }
+
+
+
+
+
+faculte_client_galerie:
+    path:     /client_galerie
+    defaults: { _controller: FaculteClientBundle:Galerie:afficherGalerie}
+
+faculte_client_produit:
+    path:     /client_produit
+    defaults: { _controller: FaculteClientBundle:Produit:afficherProduit}
+
+faculte_client_activite:
+    path:     /client_activite
+    defaults: { _controller: FaculteClientBundle:Activite:afficherActivite}
+
+faculte_client_tarif:
+    path:     /client_tarif
+    defaults: { _controller: FaculteClientBundle:Tarif:afficherTarif}
+

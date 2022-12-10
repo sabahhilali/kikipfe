@@ -1,0 +1,69 @@
+{% extends "FaculteClientBundle::Client.html.twig" %}
+
+{% block content %}
+    <div class="about_banner_wrap">
+        <h1 class="m_11"> Modifier votre Profil </h1>
+    </div>
+    <div class="border"> </div>
+    <div class="rwo contact">
+        <div class="container">
+            <div class="col-md-8 contact-top">
+                <form enctype="multipart/form-data" class="form-horizontal" action="" method="POST" role="form" style="margin-left: 25%">
+                    {{ form_errors(form) }}
+
+                    <div class="register-top-grid">
+
+
+                        <div class="register-top-grid" style="color: #0a6aa1">
+                            <label> * Informations Personnel : </label>
+                        </div>
+
+
+                        <br><br><br><br>
+                        <p> CIN : </p>
+                        {{ form_widget(form.cin,{'attr': {'class': 'form-control' ,'placeholder':'CIN' }} ) }}
+                        <br>
+                        <p> Nom : </p>
+                        {{ form_widget(form.nom,{'attr': {'class': 'form-control' ,'placeholder':'Nom' }} ) }}
+                        <br>
+                        <p> Prénom : </p>
+                        {{ form_widget(form.prenom,{'attr': {'class': 'form-control' ,'placeholder':'Prénom' }} ) }}
+                        <br>
+                        <p> Date de Naissance : </p>
+                        {{ form_widget(form.dateNaiss,{'attr': {'class': 'form-control','placeholder':'Date de Naissance ' }} ) }}
+                        <br>
+                        <p> Lieu de Naissance : </p>
+                        {{ form_widget(form.lieuNaiss,{'attr': {'class': 'form-control' ,'placeholder':'Lieu de Naissance' }} ) }}
+                        <br>
+                        <p> Sexe : </p>
+                        {{ form_widget(form.sexe,{'attr': {'class': 'form-control'  }} ) }}
+                        <br>
+                        <p> Télèphone : </p>
+                        {{ form_widget(form.tel,{'attr': {'class': 'form-control','placeholder':'Télèphone'  }} ) }}
+                        <br>
+                        <p> Adresse : </p>
+                        {{ form_widget(form.adrss,{'attr': {'class': 'form-control','placeholder':'Adresse'  }} ) }}
+                        <br>
+                        <p> Votre Photo : </p>
+                        {{ form_widget(form.pathFile,{'attr': {'class': 'form-control' ,'placeholder':'Votre Photo' }} ) }}
+
+
+                    </div>
+                    <div class="form-submit1">
+                        <input name="submit" type="submit" id="submit" value="Submit Your Message"><br>
+                        <p class="m_msg">Make sure you put a valid email</p>
+                    </div>
+                    {{ form_rest(form) }}
+                   
+
+                </form>
+
+        </div>
+    </div>
+
+
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,292 @@
+faculte_super_admin_homepage:
+    path:     /
+    defaults: { _controller: FaculteSuperAdminBundle:Default:index }
+
+
+faculte_super_admin_ajouter_tarif:
+    path:     /ajouter_tarif
+    defaults: { _controller: FaculteSuperAdminBundle:Tarif:ajouterTarif}
+
+faculte_super_admin_liste_tarif:
+    path:     /liste_tarif
+    defaults: { _controller: FaculteSuperAdminBundle:Tarif:listeTarif}
+
+faculte_super_admin_modifier_tarif:
+    path:     /modifier_tarif/{idT}
+    defaults: { _controller: FaculteSuperAdminBundle:Tarif:modifierTarif}
+
+faculte_super_admin_supprimer_tarif:
+    path:     /supprimer_tarif/{idT}
+    defaults: { _controller: FaculteSuperAdminBundle:Tarif:supprimerTarif}
+
+
+
+
+
+
+faculte_super_admin_ajouter_produit:
+    path:     /ajouter_produit
+    defaults: { _controller: FaculteSuperAdminBundle:Produit:ajouterProduit}
+
+faculte_super_admin_modifier_produit:
+    path:     /modifier_produit/{idP}
+    defaults: { _controller: FaculteSuperAdminBundle:Produit:modifierProduit}
+
+faculte_super_admin_supprimer_produit:
+    path:     /supprimer_produit/{idP}
+    defaults: { _controller: FaculteSuperAdminBundle:Produit:supprimerProduit}
+
+faculte_super_admin_afficher_produit:
+    path:     /afficher_produit
+    defaults: { _controller: FaculteSuperAdminBundle:Produit:afficherProduit}
+
+
+
+
+
+
+faculte_super_admin_ajouter_paiment:
+  path:     /ajouter_paiment
+  defaults: { _controller: FaculteSuperAdminBundle:Paiment:ajouterPaiment}
+
+faculte_super_admin_liste_paiment:
+    path:     /liste_paiment
+    defaults: { _controller: FaculteSuperAdminBundle:Paiment:listePaiment}
+
+faculte_super_admin_modifier_paiment:
+    path:     /modifier_paiment/{idPm}
+    defaults: { _controller: FaculteSuperAdminBundle:Paiment:modifierPaiment}
+
+faculte_super_admin_suit_paiment:
+    path:     /suit_paiment/{idPm}
+    defaults: { _controller: FaculteSuperAdminBundle:Paiment:suitPaiment}
+
+faculte_super_admin_supprimer_paiment:
+    path:     /supprimer_paiment/{idPm}
+    defaults: { _controller: FaculteSuperAdminBundle:Paiment:supprimerPaiment}
+
+
+
+faculte_super_admin_ajouter_abonnement:
+  path:     /ajouter_abonnement
+  defaults: { _controller: FaculteSuperAdminBundle:Abonnement:ajouterAbonnement}
+
+faculte_super_admin_liste_abonnement:
+    path:     /liste_abonnementss
+    defaults: { _controller: FaculteSuperAdminBundle:Abonnement:listeAbonnement}
+
+faculte_super_admin_modifier_abonnement:
+    path:     /modifier_abonnement/{idAb}
+    defaults: { _controller: FaculteSuperAdminBundle:Abonnement:modifierAbonnement}
+
+faculte_super_admin_suit_abonnement:
+    path:     /suit_abonnement/{idAb}
+    defaults: { _controller: FaculteSuperAdminBundle:Abonnement:suitAbonnement}
+
+faculte_super_admin_supprimer_abonnement:
+    path:     /supprimer_abonnement/{idAb}
+    defaults: { _controller: FaculteSuperAdminBundle:Abonnement:supprimerAbonnement}
+
+
+
+faculte_super_admin_ajouter_activite:
+  path:     /ajouter_activite
+  defaults: { _controller: FaculteSuperAdminBundle:Activite:ajouterActivite}
+
+faculte_super_admin_liste_activite:
+    path:     /liste_activite
+    defaults: { _controller: FaculteSuperAdminBundle:Activite:listeActivite}
+
+faculte_super_admin_modifier_activite:
+    path:     /modifier_activite/{idA}
+    defaults: { _controller: FaculteSuperAdminBundle:Activite:modifierActivite}
+
+faculte_super_admin_suit_activite:
+    path:     /suit_activite/{idA}
+    defaults: { _controller: FaculteSuperAdminBundle:Activite:suitActivite}
+
+faculte_super_admin_supprimer_activite:
+    path:     /supprimer_activite/{idA}
+    defaults: { _controller: FaculteSuperAdminBundle:Activite:supprimerActivite}
+
+
+
+faculte_super_admin_ajouter_adherent:
+  path:     /ajouter_adherent
+  defaults: { _controller: FaculteSuperAdminBundle:Adherent:ajouterAdherent}
+
+faculte_super_admin_liste_adherent:
+    path:     /liste_adherent
+    defaults: { _controller: FaculteSuperAdminBundle:Adherent:listeAdherent}
+
+faculte_super_admin_modifier_adherent:
+    path:     /modifier_adherent/{idAd}
+    defaults: { _controller: FaculteSuperAdminBundle:Adherent:modifierAdherent}
+
+faculte_super_admin_supprimer_adherent:
+    path:     /supprimer_adherent/{idAd}
+    defaults: { _controller: FaculteSuperAdminBundle:Adherent:supprimerAdherent}
+
+faculte_super_admin_suit_adherent:
+    path:     /suit_adherent/{idAd}
+    defaults: { _controller: FaculteSuperAdminBundle:Adherent:suitAdherent}
+
+
+
+
+
+faculte_super_admin_ajouter_coach:
+  path:     /ajouter_coach
+  defaults: { _controller: FaculteSuperAdminBundle:Coach:ajouterCoach}
+
+faculte_super_admin_liste_coach:
+    path:     /liste_coach
+    defaults: { _controller: FaculteSuperAdminBundle:Coach:listeCoach}
+
+faculte_super_admin_modifier_coach:
+    path:     /modifier_coach/{idC}
+    defaults: { _controller: FaculteSuperAdminBundle:Coach:modifierCoach}
+
+faculte_super_admin_supprimer_coach:
+    path:     /supprimer_coach/{idC}
+    defaults: { _controller: FaculteSuperAdminBundle:Coach:supprimerCoach}
+
+faculte_super_admin_suit_coach:
+    path:     /suit_coach/{idC}
+    defaults: { _controller: FaculteSuperAdminBundle:Coach:suitCoach}
+
+
+
+
+
+faculte_super_admin_ajouter_admin:
+  path:     /ajouter_admin
+  defaults: { _controller: FaculteSuperAdminBundle:Admin:ajouterAdmin}
+
+faculte_super_admin_liste_admin:
+    path:     /liste_admin
+    defaults: { _controller: FaculteSuperAdminBundle:Admin:listeAdmin}
+
+faculte_super_admin_modifier_admin:
+    path:     /modifier_admin/{idAm}
+    defaults: { _controller: FaculteSuperAdminBundle:Admin:modifierAdmin}
+
+faculte_super_admin_supprimer_admin:
+    path:     /supprimer_admin/{idAm}
+    defaults: { _controller: FaculteSuperAdminBundle:Admin:supprimerAdmin}
+
+faculte_super_admin_suit_admin:
+    path:     /suit_admin/{idAm}
+    defaults: { _controller: FaculteSuperAdminBundle:Admin:suitAdmin}
+
+
+
+
+
+faculte_super_admin_ajouter_client:
+  path:     /ajouter_client
+  defaults: { _controller: FaculteSuperAdminBundle:Client:ajouterClient}
+
+faculte_super_admin_liste_client:
+    path:     /liste_client
+    defaults: { _controller: FaculteSuperAdminBundle:Client:listeClient}
+
+faculte_super_admin_modifier_client:
+    path:     /modifier_client/{idClt}
+    defaults: { _controller: FaculteSuperAdminBundle:Client:modifierClient}
+
+faculte_super_admin_supprimer_client:
+    path:     /supprimer_client/{idClt}
+    defaults: { _controller: FaculteSuperAdminBundle:Client:supprimerClient}
+
+faculte_super_admin_suit_client:
+    path:     /suit_client/{idClt}
+    defaults: { _controller: FaculteSuperAdminBundle:Client:suitClient}
+
+
+
+
+
+faculte_super_admin_ajouter_galerie:
+  path:     /ajouter_galerie
+  defaults: { _controller: FaculteSuperAdminBundle:Galerie:ajouterGalerie}
+
+faculte_super_admin_modifier_galerie:
+    path:     /modifier_galerie/{idG}
+    defaults: { _controller: FaculteSuperAdminBundle:Galerie:modifierGalerie}
+
+faculte_super_admin_supprimer_galerie:
+    path:     /supprimer_galerie/{idG}
+    defaults: { _controller: FaculteSuperAdminBundle:Galerie:supprimerGalerie}
+
+faculte_super_admin_afficher_galerie:
+    path:     /afficher_galerie
+    defaults: { _controller: FaculteSuperAdminBundle:Galerie:afficherGalerie}
+
+
+
+
+
+faculte_super_admin_ajouter_galeriepersonnel:
+  path:     /ajouter_galeriepersonnel
+  defaults: { _controller: FaculteSuperAdminBundle:Galeriepersonnel:ajouterGaleriepersonnel}
+faculte_super_admin_modifier_galeriepersonnel:
+    path:     /modifier_galeriepersonnel/{idGp}
+    defaults: { _controller: FaculteSuperAdminBundle:Galeriepersonnel:modifierGaleriepersonnel}
+faculte_super_admin_supprimer_galeriepersonnel:
+    path:     /supprimer_galeriepersonnel/{idGp}
+    defaults: { _controller: FaculteSuperAdminBundle:Galeriepersonnel:supprimerGaleriepersonnel}
+
+faculte_super_admin_afficher_galeriepersonnel:
+    path:     /afficher_galeriepersonnel
+    defaults: { _controller: FaculteSuperAdminBundle:Galeriepersonnel:afficherGaleriepersonnel}
+
+
+
+
+
+faculte_super_admin_ajouter_actualite:
+  path:     /ajouter_actualite
+  defaults: { _controller: FaculteSuperAdminBundle:Actualite:ajouterActualite}
+
+faculte_super_admin_liste_actualite:
+    path:     /liste_actualite
+    defaults: { _controller: FaculteSuperAdminBundle:Actualite:listeActualite}
+
+faculte_super_admin_modifier_actualite:
+    path:     /modifier_actualite/{idAct}
+    defaults: { _controller: FaculteSuperAdminBundle:Actualite:modifierActualite}
+
+faculte_super_admin_supprimer_actualite:
+    path:     /supprimer_actualite/{idAct}
+    defaults: { _controller: FaculteSuperAdminBundle:Actualite:supprimerActualite}
+
+faculte_super_admin_suit_actualite:
+    path:     /suit_actualite/{idAct}
+    defaults: { _controller: FaculteSuperAdminBundle:Actualite:suitActualite}
+
+
+
+
+faculte_super_admin_ajouter_exercice:
+  path:     /ajouter_exercice
+  defaults: { _controller: FaculteSuperAdminBundle:Exercice:ajouterExercice}
+
+faculte_super_admin_liste_exercice:
+    path:     /liste_exercice
+    defaults: { _controller: FaculteSuperAdminBundle:Exercice:listeExercice}
+
+faculte_super_admin_modifier_exercice:
+    path:     /modifier_exercice/{idE}
+    defaults: { _controller: FaculteSuperAdminBundle:Exercice:modifierExercice}
+
+faculte_super_admin_supprimer_exercice:
+    path:     /supprimer_exercice/{idE}
+    defaults: { _controller: FaculteSuperAdminBundle:Exercice:supprimerExercice}
+
+faculte_super_admin_suit_exercice:
+    path:     /suit_exercice/{idE}
+    defaults: { _controller: FaculteSuperAdminBundle:Exercice:suitExercice}
+faculte_super_admin_render_activites_tarif:
+    path:     /render_activites/tarif
+    defaults: { _controller: FaculteSuperAdminBundle:Abonnement:renderactivites}

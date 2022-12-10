@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <head>
+        <link rel="shortcut icon" href="{{ asset('bundles/faculteadmin/layouts/layout2/img/avatar3_small.jpg')}}"/>
+    <link href="{{ asset('bundles/facultefront/css/bootstrap.css')}}" rel='stylesheet' type='text/css' />
+    <link href="{{ asset('bundles/facultefront/css/style.css')}}" rel='stylesheet' type='text/css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />-->
+    <script src="{{ asset('bundles/facultefront/js/jquery.min.js')}}"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+            });
+        });
+    </script>
+    <!-- grid-slider -->
+    {% block js %}
+    {% endblock %}
+    <!-- //grid-slider -->
+</head>
+<body>
+<!-- start header_top -->
+<div class="header">
+    <div class="container">
+        <div class="header-text">
+            <h1>Energy </h1>
+            <h2>Salle de sport à Nabeul</h2>
+            <p> " Tout Accomplissement Commence Par La Décision D'Essayer "</p>
+            <div class="banner_btn">
+                <a href="{{ path('faculte_front_ajouter') }}">Inscrivez Vous</a>
+            </div>
+        </div>
+        <div class="header-arrow">
+            <a href="#menu" class="class scroll">
+                <span>
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- end header_top -->
+
+
+
+
+
+<!-- start menu -->
+<div class="menu" id="menu">
+    <div class="container">
+        <div class="logo">
+            <a href="{{ path('faculte_front_homepage') }}"><img src="images/logo.png" alt=""/></a>
+        </div>
+        <div class="h_menu4">
+            <!-- start h_menu4 -->
+            <ul class="nav">
+                <li class="active">
+                    <a href="{{ path('faculte_front_homepage') }}">Accueil</a></li>
+                <li><a href="{{ path('faculte_front_produit') }}">Produit</a></li>
+                <li><a href="{{ path('faculte_front_activite') }}">Activité</a></li>
+                <li><a href="{{ path('faculte_front_tarif') }}">Tarif</a></li>
+                <li><a href="{{ path('faculte_front_galerie') }}">Galerie</a></li>
+                <li><a href="{{ path('faculte_front_ajouter') }}">Inscription</a></li>
+                <li><a href="{{ path('fos_user_security_login') }}">Se Connecter</a></li>
+
+            </ul>
+            <script type="text/javascript" src="{{ asset('bundles/facultefront/js/nav.js')}}"></script>
+        </div>
+        <!-- end h_menu4 -->
+        <div class="clear"></div>
+    </div>
+</div>
+<!-- end menu -->
+{% block content %}
+{% endblock %}
+<div class="footer-top">
+    <ul class="twitter_footer">
+        <li>
+            <p>
+            </p>
+            <div class="clear"></div>
+        </li>
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row section group">
+            <div class="col-md-4">
+                <div class="f-logo">
+                    <img src="images/logo.png" alt=""/>
+                </div>
+                <p class="m_9">" La compétition sportive est une parabole qui illustre parfaitement la grande course de la vie."
+                                       . . .  "ENERGY"</p>
+                <p class="address">Phone : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">(+216) 72 285 524</span></p>
+                <p class="address">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">sportclubenergy@yahoo.fr</span></p>
+            </div>
+            <div class="col-md-4">
+                <ul class="list">
+                    <h4 class="m_7">Menu</h4>
+                    <li><a href="{{ path('faculte_front_produit') }}">Produit</a></li>
+                    <li><a href="{{ path('faculte_front_activite') }}">Activité</a></li>
+                    <li><a href="{{ path('faculte_front_tarif') }}">Tarif</a></li>
+                    <li><a href="{{ path('faculte_front_galerie') }}">Galerie</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

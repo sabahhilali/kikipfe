@@ -1,0 +1,57 @@
+{% extends "FaculteAdherantBundle::layoutAdherent.html.twig" %}
+ {% block content %}
+     <div class="main">
+     <div class="about_banner_img">
+         <img src="images/price.jpg" class="img-responsive" alt=""/></div>
+     <div class="about_banner_wrap">
+         <h1 class="m_11">Galerie des Adhérents</h1>
+     </div>
+     <div class="border"> </div>
+     <div class="container">
+     <div class="row price_plans">
+     <h3 class="m_2">Votre Galerie</h3>
+
+
+
+     <div class="row">
+         <div class="col-md-12 ">
+             <!-- BEGIN SAMPLE FORM PORTLET-->
+             <div class="portlet light ">
+
+                 <div class="portlet-body form">
+                     <form enctype="multipart/form-data" class="form-horizontal" action="" method="POST" role="form" style="margin-left: 25%">
+                         {{ form_errors(form) }}
+                         <div class="form-body">
+
+                             <div class="form-group">
+                                 <label>Description</label>
+                                 <div class="input-group col-md-4">
+                                     <span class="input-group-addon"></span>
+                                     {{ form_widget(form.description,{'attr': {'class': 'form-control','placeholder':'Description' }} ) }}
+                                 </div>
+                             </div>
+
+                             <div class="form-group">
+                                 <label>Fichier</label>
+                                 <div class="input-group col-md-4">
+                                     <span class="input-group-addon"></span>
+                                     {{ form_widget(form.pathFile,{'attr': {'class': 'form-control' }} ) }}
+                                 </div>
+                             </div>
+                             {{ form_rest(form) }}
+                         </div>
+                         <div class="form-actions" style="margin-left: 15%">
+                             <button type="submit" class="btn blue">Ajouter</button>
+                             <button type="button" class="btn default" onclick='location.href="{{ path('faculte_adherent_afficher_galeriepersonnel') }}"'>Annuler</button>
+                         </div>
+                     </form>
+                 </div>
+             </div>
+             <!-- END SAMPLE FORM PORTLET-->
+         </div>
+     </div>
+     </div>
+     </div>
+     </div>
+
+ {% endblock %}

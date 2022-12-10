@@ -1,0 +1,28 @@
+faculte_front:
+    resource: "@FaculteFrontBundle/Resources/config/routing.yml"
+    prefix:   /
+
+faculte_adherant:
+    resource: "@FaculteAdherantBundle/Resources/config/routing.yml"
+    prefix:   /adherant
+
+faculte_coach:
+    resource: "@FaculteCoachBundle/Resources/config/routing.yml"
+    prefix:   /coach
+
+faculte_client:
+    resource: "@FaculteClientBundle/Resources/config/routing.yml"
+    prefix:   /client
+
+faculte_super_admin:
+    resource: "@FaculteSuperAdminBundle/Resources/config/routing.yml"
+    prefix:   /superadmin
+
+faculte_admin:
+    resource: "@FaculteAdminBundle/Resources/config/routing.yml"
+    prefix:   /admin
+
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+

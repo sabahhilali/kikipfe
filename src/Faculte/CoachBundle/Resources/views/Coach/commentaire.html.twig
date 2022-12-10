@@ -1,0 +1,55 @@
+{% extends "FaculteCoachBundle::LayoutCoach.html.twig" %}
+ {% block content  %}
+     <!-- BEGIN CONTENT -->
+
+
+             <div class="row">
+                 <div class="col-md-12 ">
+                     <!-- BEGIN SAMPLE FORM PORTLET-->
+                     <div class="portlet light ">
+
+                         <div class="portlet-title">
+                             <div class="caption font-red-sunglo">
+                                 <i class="fa fa-edit font-red-sunglo"></i>
+                                 <span class="caption-subject bold uppercase"> Ajouter Commentaire </span>
+                             </div>
+                         </div>
+
+                         <div class="portlet-body form">
+                             <form enctype="multipart/form-data" class="form-horizontal" action="" method="POST" role="form" style="margin-left: 25%">
+                                 {{ form_errors(form) }}
+                                 <div class="form-body">
+
+                                     <div class="form-group">
+                                         <label>Commentaire</label>
+                                         <div class="input-group col-md-4">
+                                             <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+                                             {{ form_widget(form.commentaire,{'attr': {'class': 'form-control','placeholder':'Commentaire' }} ) }}
+                                         </div>
+                                     </div>
+
+
+                                     {{ form_rest(form) }}
+                                 </div>
+                                 <div class="form-actions" style="margin-left: 15%">
+                                     <button type="submit" class="btn blue">Mettre à jour</button>
+                                     <button type="button" class="btn default" onclick='location.href="{{ path('faculte_coach_homepage') }}"'>Annuler</button>
+                                 </div>
+                             </form>
+                         </div>
+                     </div>
+                     <!-- END SAMPLE FORM PORTLET-->
+                 </div>
+             </div>
+
+ {% endblock %}
+ {% block js %}
+     <script type="text/javascript">
+         $(document).ready(function(){
+             $('select').selectpicker();
+             $('.datepicker').datepicker();
+         });
+     </script>
+ {% endblock %}
+
+

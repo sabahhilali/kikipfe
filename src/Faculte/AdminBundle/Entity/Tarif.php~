@@ -1,0 +1,56 @@
+<?php
+
+namespace Faculte\AdminBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Tarif
+ * @ORM\HasLifecycleCallbacks
+ * @ORM\Table(name="tarif")
+ * @ORM\Entity(repositoryClass="Faculte\AdminBundle\Repository\TarifRepository")
+ */
+class Tarif
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="prixT", type="string")
+     */
+    private $prixT;
+
+/********************************************************/
+
+    /**
+     * @ORM\ManyToOne(targetEntity="Activite", inversedBy="tarifs")
+     * @ORM\JoinColumn(name="activite_id", referencedColumnName="id")
+     */
+
+    private $activite;
+
+
+
+    /**
+     * Convert object to string
+     *
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->getprixT();
+    }
+
+    /********************************************************/
+
+
+}

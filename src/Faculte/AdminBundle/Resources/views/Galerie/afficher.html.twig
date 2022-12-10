@@ -1,0 +1,94 @@
+{% extends "FaculteAdminBundle::Layout.html.twig" %}
+ {% block content %}
+     <!-- BEGIN CONTENT -->
+     <div class="page-content-wrapper">
+         <!-- BEGIN CONTENT BODY -->
+         <div class="page-content">
+             <!-- BEGIN PAGE HEADER-->
+             <h3 class="page-title"> Gestion Des Galeries
+                 <small> Affiche...</small>
+             </h3>
+
+
+             <div class="page-bar">
+                 <ul class="page-breadcrumb">
+                     <li>
+                         <i class="icon-home"></i>
+                         <a href="{{ path('faculte_admin_homepage') }}">Accueil</a>
+                         <i class="fa fa-angle-right"></i>
+                     </li>
+
+                     <div class="btn btn-circle border-red-mint" style="color: #e43a45">
+                         <i class="icon-camera"></i>
+                         <span> Afficher la Galerie </span>
+                     </div>
+
+                 </ul>
+             </div>
+
+
+             <div class="row">
+                 <div class="col-md-12 ">
+                     <!-- BEGIN SAMPLE FORM PORTLET-->
+                     <div class="portlet light ">
+
+                         <div class="portlet-title">
+                             <div class="caption font-red-sunglo">
+                                 <i class="icon-camera font-red-sunglo"></i>
+                                 <span class="caption-subject bold uppercase">  Galerie </span>
+                             </div>
+                         </div>
+
+                         <div class="portlet-title">
+                             <div class="caption font-dark">
+                                 <a class="btn green-sharp btn-outline btn-block " href="/pfe/salle/web/app_dev.php/ajouter_galerie"><i class="icon-plus"> Galerie </i></a>
+                             </div>
+                         </div>
+
+                         <div class="row">
+                             <div class="portlet-body">
+                                 <div class="mt-element-card mt-element-overlay">
+                                     <div class="row">
+
+                                         {% if Galerie is not empty %}
+                                         {% for galerie in Galerie %}
+
+                                         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                             <div class="mt-card-item">
+                                                 <div class="mt-card-avatar mt-overlay-1">
+                                                     <img src="{{ asset('files/galeries/'~galerie.id~'/'~galerie.pathFile) }}" alt="Galerie"  style="width:250px; height:250px;">
+                                                     <div class="mt-overlay">
+                                                         <ul class="mt-info">
+                                                             <li>
+                                                                 <a class="btn default btn-outline" target="_blank" href="{{ asset('files/galeries/'~galerie.id~'/'~galerie.pathFile) }}">
+                                                                     <i class="icon-magnifier"></i>
+                                                                 </a>
+                                                             </li>
+                                                         </ul>
+                                                     </div>
+                                                 </div>
+                                                 <div class="mt-card-content">
+                                                     <p class="mt-card-desc font-grey-mint">{{ galerie.description }}</p>
+                                                 </div>
+                                             </div>
+                                         </div>
+
+
+
+                                         {% endfor %}
+                                         {% endif %}
+
+
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+
+                     </div>
+                     <!-- END SAMPLE FORM PORTLET-->
+                 </div>
+             </div>
+         </div>
+     </div>
+
+ {% endblock %}

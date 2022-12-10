@@ -1,0 +1,42 @@
+{% extends "FaculteAdminBundle::layoutFos.html.twig"%}
+{% trans_default_domain 'FOSUserBundle' %}
+{% block fos_user_content %}
+
+    <div class="login-content">
+        <h3 style="color:blue">Veuillez saisir votre login et votre mot de passe !</h3>
+        <p>{% if error %}
+        <div>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+        {% endif %} </p>
+        <!-- BEGIN FORGOT PASSWORD FORM -->
+        <form  action="{{ path("fos_user_security_check") }}" method="post">
+            {% if csrf_token %}
+                <input type="hidden" name="_csrf_token" value="{{ csrf_token }}" />
+            {% endif %}
+            <div class="login-form">
+                <div class="alert alert-danger display-hide">
+                    <button class="close" data-close="alert"></button>
+                    <span>Enter any username and password. </span>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <input class="form-control form-control-solid placeholder-no-fix form-group" type="text" autocomplete="off" placeholder="{{ 'security.login.username'|trans }}"  id="username" name="_username" value="{{ last_username }}" required="required"  /> </div>
+                    <div class="col-xs-6">
+                        <input class="form-control form-control-solid placeholder-no-fix form-group" type="password" autocomplete="off" placeholder="{{ 'security.login.password'|trans }}" id="password" name="_password" required="required"  required/> </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="rem-password">
+                            <p>{{ 'security.login.remember_me'|trans }}
+                                <input type="checkbox" class="rem-checkbox" id="remember_me" name="_remember_me" value="on"/>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 text-right">
+                        <button class="btn btn-success uppercase pull-right" type="submit">Connexion</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!-- END FORGOT PASSWORD FORM -->
+    </div>
+{% endblock fos_user_content %}

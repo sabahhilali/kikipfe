@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87427809-5de1-4b77-8227-5569afb3a0f4" name="Default" comment="" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="pfeProjet" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="afficher.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Galeriepersonnel/afficher.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="49" column="137" lean-forward="false" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="137" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajouter.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Galeriepersonnel/ajouter.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modifier.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Galeriepersonnel/modifier.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="20" column="166" lean-forward="false" selection-start-line="20" selection-start-column="166" selection-end-line="20" selection-end-column="166" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profil.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Adherent/profil.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modifier.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Adherent/modifier.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profil.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Coach/profil.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modifier.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Exercice/modifier.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="108" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="liste.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Exercice/liste.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="36" column="42" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activite.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Activite/activite.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>metronic</find>
+      <find>pro</find>
+      <find>merci</find>
+      <find>projet</find>
+      <find>bien</find>
+      <find>faculte_admin</find>
+      <find>admin</find>
+      <find>acti</find>
+      <find>7</find>
+      <find>galer</find>
+      <find>ajouter_ga</find>
+      <find>ajouter</find>
+      <find>adher</find>
+      <find>actua</find>
+      <find>adhere</find>
+      <find>galeri</find>
+      <find>buy</find>
+      <find>login</find>
+      <find>conn</find>
+      <find>/lo</find>
+      <find>lo</find>
+      <find>/login</find>
+      <find>Enjoy it!</find>
+      <find>Lorem ipsum dolor sit!</find>
+      <find>front</find>
+      <find>act</find>
+      <find>client</find>
+      <find>exercice</find>
+      <find>coa</find>
+      <find>exer</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&lt;link href=&quot;{{ asset ('bundles/faculteadmin/</replace>
+      <replace>.css') }}&quot;</replace>
+      <replace>&lt;link href=&quot;{{ asset('bundles/faculteadmin</replace>
+      <replace>&lt;script src=&quot;..</replace>
+      <replace>&lt;script src=&quot;{{ asset('bundles/faculteadmin</replace>
+      <replace>.js') }}</replace>
+      <replace>.css') }}</replace>
+      <replace>Aucune donnée disponible</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\wamp64\www\faculte\pfeProjet\src\Faculte\EtudiantBundle\Resources\public</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet\src</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet\src\Faculte\AdminBundle</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet\src\Faculte\AdminBundle\Resources\views\EmploiTemps</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet\src\Faculte\AdminBundle\Entity</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet\src\Faculte\AdminBundle\Resources\public\global\plugins\datatables</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet\src\Faculte\AdminBundle\Resources\public</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet\src\Faculte\AdminBundle\Resources</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet\src\Faculte\FrontBundle\Resources\public</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet\vendor\friendsofsymfony\user-bundle</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet\src\Faculte\AdminBundle\Controller</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet\vendor\friendsofsymfony</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet\vendor</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet\src\Faculte\EnseignantBundle\Resources\public</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet\src\Faculte\EnseignantBundle</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet\src\Faculte\AdminBundle\Resources\views</dir>
+      <dir>C:\wamp64\www\faculte\pfeProjet\src\Faculte</dir>
+      <dir>C:\wamp64\www\kikinew\pfe\src\Faculte</dir>
+    </dirStrings>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="s doctrine:generate:entities FaculteAdminBundle:Dossier" />
+      <command text="s doctrine:generate:entities FaculteAdminBundle:Client" />
+      <command text="s doctrine:schema:update --force " />
+      <command text="s doctrine:generate:entities FaculteAdminBundle:Dossier" />
+      <command text="s doctrine:schema:update --force " />
+      <command text="s doctrine:generate:entity" />
+      <command text="s doctrine:generate:form FaculteAdminBundle:Dossier" />
+      <command text="s doctrine:schema:update --force " />
+      <command text="s doctrine:generate:entities FaculteAdminBundle:Dossier" />
+      <command text="s doctrine:schema:update --force " />
+      <command text="s doctrine:generate:entities FaculteAdminBundle:Dossier" />
+      <command text="s doctrine:schema:update --force " />
+      <command text="s doctrine:generate:entity" />
+      <command text="s doctrine:generate:entities " />
+      <command text="s doctrine:generate:entities FaculteAdminBundle" />
+      <command text="s doctrine:schema:update --force " />
+      <command text="s assets:install " />
+      <command text="s generate:bundle" />
+      <command text="s assets:install " />
+      <command text="s fos:user:create superadmin superadmin@gmail.com superadmin" />
+      <command text="s fos:user:promote superadmin" />
+      <command text="s fos:user:activate superadmin" />
+      <command text="s doctrine:schema:update --force " />
+      <command text="s doctrine:generate:entities FaculteAdminBundle:Client" />
+      <command text="s doctrine:schema:update --force " />
+    </commandsHistory>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Faculte/ClientBundle/Controller/ActiviteController.php" />
+        <option value="$PROJECT_DIR$/src/Faculte/ClientBundle/Controller/GalerieController.php" />
+        <option value="$PROJECT_DIR$/src/Faculte/ClientBundle/Controller/ProduitController.php" />
+        <option value="$PROJECT_DIR$/src/Faculte/ClientBundle/Controller/TarifController.php" />
+        <option value="$PROJECT_DIR$/src/Faculte/ClientBundle/Resources/views/Activite/activite.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/ClientBundle/Resources/views/Galerie/galerie.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/ClientBundle/Resources/views/produit/produit.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/ClientBundle/Resources/views/Tarif/tarif.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/ClientBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Faculte/FrontBundle/Resources/views/Client/ajouter.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/ClientBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Controller/ExerciceController.php" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Controller/TarifController.php" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Controller/ProduitController.php" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Controller/GalerieController.php" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Controller/ActiviteController.php" />
+        <option value="$PROJECT_DIR$/src/Faculte/ClientBundle/Resources/views/Client.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/ClientBundle/Resources/views/Client/profil.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/ClientBundle/Resources/views/Client/modifier.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Tarif/tarif.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/produit/produit.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Galerie/galerie.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Activite/activite.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Coach/profil.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Coach/modifier.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Exercice/suit.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Exercice/modifier.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Exercice/ajouter.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Controller/TarifController.php" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Controller/ProduitController.php" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Controller/GalerieController.php" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Controller/ActiviteController.php" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/layoutCoach.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/layoutAdherent.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Activite/activite.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Galerie/galerie.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/produit/produit.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Tarif/tarif.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Exercice/exercice.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Exercice/suit.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Controller/ExerciceController.php" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Exercice/liste.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Galeriepersonnel/ajouter.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Galeriepersonnel/afficher.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Galeriepersonnel/modifier.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Adherent/profil.html.twig" />
+        <option value="$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Adherent/modifier.html.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1370" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Control FlowPHP</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpUnreachableStatementInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pfe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pfe" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pfe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pfe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pfe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pfe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pfe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pfe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Faculte" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pfe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pfe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Faculte" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdherantBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pfe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pfe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Faculte" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdherantBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pfe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pfe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Faculte" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdherantBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pfe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pfe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Faculte" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdherantBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pfe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pfe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Faculte" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdherantBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adherent" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pfe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pfe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Faculte" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdherantBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tarif" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pfe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pfe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Faculte" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CoachBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pfe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pfe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Faculte" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CoachBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pfe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pfe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Faculte" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CoachBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pfe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pfe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Faculte" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CoachBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Coach" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pfe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pfe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Faculte" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CoachBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Exercice" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="SearchEverywhereHistoryKey" value="M&#9;FILE&#9;file://C:/wamp64/www/faculte/pfeProjet/src/Faculte/AdminBundle/Resources/views/Etudiant/ajouter.html.twig" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\kikinew\pfe\src\Faculte\AdherantBundle\Resources\views" />
+      <recent name="C:\wamp64\www\kikinew\pfe\src\Faculte\AdherantBundle\Controller" />
+      <recent name="C:\wamp64\www\kikinew\pfe\src\Faculte\CoachBundle\Resources\views" />
+      <recent name="C:\wamp64\www\kikinew\pfe\src\Faculte\CoachBundle\Controller" />
+      <recent name="C:\wamp64\www\kikinew\pfe\src\Faculte\ClientBundle\Resources\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\kikinew\pfe\src\Faculte\FrontBundle\Resources\views\produit" />
+      <recent name="C:\wamp64\www\kikinew\pfe\src\Faculte\FrontBundle\Resources\views\Galerie" />
+      <recent name="C:\wamp64\www\kikinew\pfe\src\Faculte\FrontBundle\Resources\views\Client" />
+      <recent name="C:\wamp64\www\fedi\pfeFedi\src\Faculte\ChargeExpertBundle\Controller" />
+      <recent name="C:\wamp64\www\fedi\pfeFedi\src\Faculte\ChargecreditBundle\Controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87427809-5de1-4b77-8227-5569afb3a0f4" name="Default" comment="" />
+      <created>1485896441551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1485896441551</updated>
+      <workItem from="1485896443621" duration="6845000" />
+      <workItem from="1485977772532" duration="1284000" />
+      <workItem from="1485979106547" duration="19162000" />
+      <workItem from="1486051993291" duration="11695000" />
+      <workItem from="1486063984049" duration="18900000" />
+      <workItem from="1486144402819" duration="28758000" />
+      <workItem from="1486262774413" duration="8300000" />
+      <workItem from="1486300776950" duration="8322000" />
+      <workItem from="1486311052551" duration="8885000" />
+      <workItem from="1486386599137" duration="10876000" />
+      <workItem from="1486398949032" duration="180000" />
+      <workItem from="1486399433673" duration="16447000" />
+      <workItem from="1486463962228" duration="13599000" />
+      <workItem from="1486486646741" duration="11265000" />
+      <workItem from="1486555902820" duration="281000" />
+      <workItem from="1486571519830" duration="12891000" />
+      <workItem from="1486637234942" duration="39381000" />
+      <workItem from="1486806988047" duration="7042000" />
+      <workItem from="1486974166175" duration="5119000" />
+      <workItem from="1487061512887" duration="597000" />
+      <workItem from="1487076865542" duration="9828000" />
+      <workItem from="1487147674783" duration="11506000" />
+      <workItem from="1487239632827" duration="133000" />
+      <workItem from="1487244818262" duration="38000" />
+      <workItem from="1487245003907" duration="2705000" />
+      <workItem from="1487260766006" duration="164000" />
+      <workItem from="1487316305623" duration="9579000" />
+      <workItem from="1487416077657" duration="787000" />
+      <workItem from="1487578873496" duration="1856000" />
+      <workItem from="1487757304256" duration="2605000" />
+      <workItem from="1487759990438" duration="14542000" />
+      <workItem from="1487780846113" duration="2279000" />
+      <workItem from="1487784862251" duration="6896000" />
+      <workItem from="1487847096906" duration="27570000" />
+      <workItem from="1487928141663" duration="14480000" />
+      <workItem from="1488037105823" duration="12164000" />
+      <workItem from="1488100713849" duration="3213000" />
+      <workItem from="1488143382210" duration="102000" />
+      <workItem from="1488185091856" duration="453000" />
+      <workItem from="1488185676272" duration="4789000" />
+      <workItem from="1488192347227" duration="26536000" />
+      <workItem from="1488280883445" duration="20295000" />
+      <workItem from="1488361843958" duration="9529000" />
+      <workItem from="1488373544794" duration="24008000" />
+      <workItem from="1488449010641" duration="28534000" />
+      <workItem from="1488614729951" duration="2269000" />
+      <workItem from="1488617397588" duration="5762000" />
+      <workItem from="1488624673994" duration="4689000" />
+      <workItem from="1488785670739" duration="4853000" />
+      <workItem from="1488879509526" duration="30243000" />
+      <workItem from="1488968373322" duration="9933000" />
+      <workItem from="1488986903723" duration="1141000" />
+      <workItem from="1488989053264" duration="11392000" />
+      <workItem from="1489055392474" duration="19079000" />
+      <workItem from="1489139746311" duration="28458000" />
+      <workItem from="1489236437775" duration="5756000" />
+      <workItem from="1489245193751" duration="10326000" />
+      <workItem from="1489256326405" duration="1596000" />
+      <workItem from="1489258164957" duration="408000" />
+      <workItem from="1489259117686" duration="20702000" />
+      <workItem from="1489315497184" duration="19084000" />
+      <workItem from="1489345481599" duration="8648000" />
+      <workItem from="1489396341204" duration="3699000" />
+      <workItem from="1489400969301" duration="12580000" />
+      <workItem from="1489416837097" duration="22933000" />
+      <workItem from="1489482845607" duration="27328000" />
+      <workItem from="1489517717139" duration="7696000" />
+      <workItem from="1489573078775" duration="10900000" />
+      <workItem from="1489596688161" duration="8105000" />
+      <workItem from="1489611408498" duration="2413000" />
+      <workItem from="1489782965247" duration="5197000" />
+      <workItem from="1489822858039" duration="3303000" />
+      <workItem from="1489830065954" duration="375000" />
+      <workItem from="1489863779643" duration="592000" />
+      <workItem from="1490027606668" duration="151000" />
+      <workItem from="1490086365034" duration="34131000" />
+      <workItem from="1490170712943" duration="36395000" />
+      <workItem from="1490259929164" duration="36979000" />
+      <workItem from="1490343010821" duration="10950000" />
+      <workItem from="1490434926096" duration="2462000" />
+      <workItem from="1490437953617" duration="13540000" />
+      <workItem from="1490452211469" duration="22804000" />
+      <workItem from="1490519413947" duration="7632000" />
+      <workItem from="1490523545862" duration="15608000" />
+      <workItem from="1490541087118" duration="15355000" />
+      <workItem from="1490604844477" duration="9668000" />
+      <workItem from="1490625113791" duration="6280000" />
+      <workItem from="1490690241741" duration="3106000" />
+      <workItem from="1490776370351" duration="37306000" />
+      <workItem from="1490863761928" duration="13136000" />
+      <workItem from="1490882545855" duration="674000" />
+      <workItem from="1490896179727" duration="10013000" />
+      <workItem from="1490985248479" duration="2240000" />
+      <workItem from="1491029501065" duration="9152000" />
+      <workItem from="1491039154707" duration="792000" />
+      <workItem from="1491043899368" duration="2956000" />
+      <workItem from="1491047123649" duration="1988000" />
+      <workItem from="1491212031429" duration="7653000" />
+      <workItem from="1491218770671" duration="20633000" />
+      <workItem from="1491290850564" duration="49455000" />
+      <workItem from="1491377761840" duration="47176000" />
+      <workItem from="1491469943191" duration="10224000" />
+      <workItem from="1491483286860" duration="14369000" />
+      <workItem from="1491641007021" duration="18310000" />
+      <workItem from="1491684763036" duration="559000" />
+      <workItem from="1491687239408" duration="3635000" />
+      <workItem from="1491747565101" duration="2576000" />
+      <workItem from="1491754785255" duration="146000" />
+      <workItem from="1491755329645" duration="14501000" />
+      <workItem from="1491813234485" duration="1080000" />
+      <workItem from="1492177410757" duration="1716000" />
+      <workItem from="1492199104671" duration="642000" />
+      <workItem from="1492238087585" duration="28381000" />
+      <workItem from="1492368409354" duration="8617000" />
+      <workItem from="1492501899795" duration="1124000" />
+      <workItem from="1492677148447" duration="913000" />
+      <workItem from="1492802288647" duration="513000" />
+      <workItem from="1492854308128" duration="669000" />
+      <workItem from="1493045379715" duration="596000" />
+      <workItem from="1493148649312" duration="711000" />
+      <workItem from="1493192202879" duration="1316000" />
+      <workItem from="1493228285830" duration="11750000" />
+      <workItem from="1493285211363" duration="4054000" />
+      <workItem from="1493298595385" duration="3529000" />
+      <workItem from="1493717314764" duration="3610000" />
+      <workItem from="1494317526471" duration="4865000" />
+      <workItem from="1494670766567" duration="4847000" />
+      <workItem from="1494676191150" duration="55000" />
+      <workItem from="1494676873081" duration="21720000" />
+      <workItem from="1495194220156" duration="803000" />
+      <workItem from="1495226599130" duration="668000" />
+      <workItem from="1496040535753" duration="26198000" />
+      <workItem from="1496125437542" duration="11833000" />
+      <workItem from="1496142144052" duration="135637000" />
+      <workItem from="1496819465026" duration="21594000" />
+      <workItem from="1496905342353" duration="4056000" />
+      <workItem from="1496911613150" duration="20904000" />
+      <workItem from="1496999564817" duration="29722000" />
+      <workItem from="1497513103993" duration="21451000" />
+      <workItem from="1497553964451" duration="8855000" />
+      <workItem from="1497564866291" duration="5588000" />
+      <workItem from="1497681814203" duration="14271000" />
+      <workItem from="1498031569434" duration="5665000" />
+      <workItem from="1498033867216" duration="15578000" />
+      <workItem from="1498114279631" duration="3884000" />
+      <workItem from="1498635775094" duration="402000" />
+      <workItem from="1498636894931" duration="4086000" />
+      <workItem from="1498642182638" duration="4028000" />
+      <workItem from="1498646314205" duration="10188000" />
+      <workItem from="1498719840896" duration="16208000" />
+      <workItem from="1498808136332" duration="22673000" />
+      <workItem from="1498896808893" duration="9079000" />
+      <workItem from="1499067056568" duration="1168000" />
+      <workItem from="1499065549338" duration="16114000" />
+      <workItem from="1499150842704" duration="21334000" />
+      <workItem from="1499236622020" duration="4739000" />
+      <workItem from="1499241956245" duration="9311000" />
+      <workItem from="1499260228698" duration="68000" />
+      <workItem from="1499260927358" duration="1435000" />
+      <workItem from="1499275752258" duration="9205000" />
+      <workItem from="1499331689620" duration="11061000" />
+      <workItem from="1499409707608" duration="19416000" />
+      <workItem from="1499498816435" duration="1648000" />
+      <workItem from="1499496930076" duration="6465000" />
+      <workItem from="1499673093501" duration="844000" />
+      <workItem from="1499675437934" duration="1196000" />
+      <workItem from="1499677301172" duration="677000" />
+      <workItem from="1499675033632" duration="1054000" />
+      <workItem from="1499676922572" duration="1896000" />
+      <workItem from="1499679207088" duration="1086000" />
+      <workItem from="1499682596469" duration="1597000" />
+      <workItem from="1499684539253" duration="1829000" />
+      <workItem from="1499686405409" duration="1969000" />
+      <workItem from="1499688484604" duration="2114000" />
+      <workItem from="1499690630576" duration="2095000" />
+      <workItem from="1499692757454" duration="1679000" />
+      <workItem from="1499755062508" duration="1629000" />
+      <workItem from="1499756905672" duration="1320000" />
+      <workItem from="1499758295950" duration="1904000" />
+      <workItem from="1499760240040" duration="1792000" />
+      <workItem from="1499762063620" duration="1784000" />
+      <workItem from="1499764166762" duration="1901000" />
+      <workItem from="1499766225521" duration="723000" />
+      <workItem from="1499768862085" duration="1854000" />
+      <workItem from="1499770921482" duration="1973000" />
+      <workItem from="1499773022257" duration="1810000" />
+      <workItem from="1499774858735" duration="1341000" />
+      <workItem from="1499776679942" duration="1861000" />
+      <workItem from="1499778586055" duration="1000000" />
+      <workItem from="1499843336298" duration="753000" />
+      <workItem from="1499844897943" duration="1786000" />
+      <workItem from="1499847144941" duration="1589000" />
+      <workItem from="1499849449172" duration="1828000" />
+      <workItem from="1499851343380" duration="1185000" />
+      <workItem from="1499853272696" duration="609000" />
+      <workItem from="1499856015035" duration="1833000" />
+      <workItem from="1499857897019" duration="1597000" />
+      <workItem from="1499860950757" duration="1787000" />
+      <workItem from="1499862762286" duration="1898000" />
+      <workItem from="1499864750511" duration="1817000" />
+      <workItem from="1499866598483" duration="1453000" />
+      <workItem from="1499928533384" duration="1213000" />
+      <workItem from="1499930188811" duration="869000" />
+      <workItem from="1499932126709" duration="1799000" />
+      <workItem from="1499933951846" duration="1799000" />
+      <workItem from="1499935794473" duration="1623000" />
+      <workItem from="1499937746284" duration="607000" />
+      <workItem from="1499943922885" duration="1898000" />
+      <workItem from="1499946471875" duration="1878000" />
+      <workItem from="1499948386908" duration="1819000" />
+      <workItem from="1499950254893" duration="1799000" />
+      <workItem from="1499952111048" duration="2051000" />
+      <workItem from="1500014532098" duration="1769000" />
+      <workItem from="1500016354194" duration="1801000" />
+      <workItem from="1500018184190" duration="1860000" />
+      <workItem from="1500020074366" duration="1482000" />
+      <workItem from="1500025197259" duration="821000" />
+      <workItem from="1500022441801" duration="1901000" />
+      <workItem from="1500024379018" duration="1262000" />
+      <workItem from="1500026064153" duration="1065000" />
+      <workItem from="1500030760097" duration="605000" />
+      <workItem from="1500037884778" duration="417000" />
+      <workItem from="1500034723101" duration="1817000" />
+      <workItem from="1500036575413" duration="1285000" />
+      <workItem from="1500038916631" duration="1291000" />
+      <workItem from="1500099886295" duration="1719000" />
+      <workItem from="1500101670110" duration="2168000" />
+      <workItem from="1500103871994" duration="1807000" />
+      <workItem from="1500105718536" duration="848000" />
+      <workItem from="1500110251733" duration="1384000" />
+      <workItem from="1500112089069" duration="1844000" />
+      <workItem from="1500113968090" duration="2000000" />
+      <workItem from="1500116005259" duration="1986000" />
+      <workItem from="1500118029740" duration="1336000" />
+      <workItem from="1500277894030" duration="2129000" />
+      <workItem from="1500280172336" duration="1782000" />
+      <workItem from="1500282036494" duration="1889000" />
+      <workItem from="1500283973419" duration="1127000" />
+      <workItem from="1500289062178" duration="1832000" />
+      <workItem from="1500290928958" duration="1961000" />
+      <workItem from="1500292930999" duration="1797000" />
+      <workItem from="1500294769997" duration="1869000" />
+      <workItem from="1500296675285" duration="1780000" />
+      <workItem from="1500298495937" duration="1159000" />
+      <workItem from="1500361703764" duration="1900000" />
+      <workItem from="1500363648707" duration="1335000" />
+      <workItem from="1500365569094" duration="1927000" />
+      <workItem from="1500367537696" duration="1181000" />
+      <workItem from="1500374428821" duration="1414000" />
+      <workItem from="1500376847167" duration="2320000" />
+      <workItem from="1500379330774" duration="1996000" />
+      <workItem from="1500381389751" duration="1990000" />
+      <workItem from="1500383475261" duration="2025000" />
+      <workItem from="1500385538254" duration="762000" />
+      <workItem from="1500446852282" duration="1669000" />
+      <workItem from="1500453176400" duration="1805000" />
+      <workItem from="1500455007657" duration="1464000" />
+      <workItem from="1500456855372" duration="868000" />
+      <workItem from="1500459820721" duration="1976000" />
+      <workItem from="1500463006657" duration="1847000" />
+      <workItem from="1500464980717" duration="1096000" />
+      <workItem from="1500467070912" duration="1808000" />
+      <workItem from="1500469126174" duration="2167000" />
+      <workItem from="1500471491013" duration="440000" />
+      <workItem from="1500532218591" duration="1325000" />
+      <workItem from="1500534773343" duration="2159000" />
+      <workItem from="1500537329935" duration="1804000" />
+      <workItem from="1500539443873" duration="1960000" />
+      <workItem from="1500541900062" duration="2231000" />
+      <workItem from="1500544188775" duration="1240000" />
+      <workItem from="1500619859076" duration="1658000" />
+      <workItem from="1500621575020" duration="1801000" />
+      <workItem from="1500623421378" duration="1772000" />
+      <workItem from="1500625247987" duration="929000" />
+      <workItem from="1500627794002" duration="1843000" />
+      <workItem from="1500629669837" duration="1384000" />
+      <workItem from="1500637040219" duration="1536000" />
+      <workItem from="1500638888122" duration="1805000" />
+      <workItem from="1500640819774" duration="1934000" />
+      <workItem from="1500643055043" duration="1764000" />
+      <workItem from="1500644997247" duration="1015000" />
+      <workItem from="1500656592631" duration="1447000" />
+      <workItem from="1500658445955" duration="1895000" />
+      <workItem from="1500660381361" duration="1778000" />
+      <workItem from="1500662212671" duration="739000" />
+      <workItem from="1500664066540" duration="1870000" />
+      <workItem from="1500665979809" duration="1165000" />
+      <workItem from="1500706407817" duration="1230000" />
+      <workItem from="1500711285951" duration="1850000" />
+      <workItem from="1500709567970" duration="71000" />
+      <workItem from="1500709660810" duration="1361000" />
+      <workItem from="1500713052524" duration="1926000" />
+      <workItem from="1500715553048" duration="1806000" />
+      <workItem from="1500717404251" duration="1889000" />
+      <workItem from="1500719359798" duration="609000" />
+      <workItem from="1500743334466" duration="446000" />
+      <workItem from="1500743807623" duration="1813000" />
+      <workItem from="1500745653251" duration="1842000" />
+      <workItem from="1500747529241" duration="693000" />
+      <workItem from="1500802765035" duration="1358000" />
+      <workItem from="1500804502165" duration="1872000" />
+      <workItem from="1500806406521" duration="594000" />
+      <workItem from="1500880341561" duration="48000" />
+      <workItem from="1500880439940" duration="13749000" />
+      <workItem from="1501052327177" duration="13555000" />
+      <workItem from="1501090965911" duration="18316000" />
+      <workItem from="1501109849614" duration="587000" />
+      <workItem from="1501135297749" duration="5043000" />
+      <workItem from="1501141964569" duration="6982000" />
+      <workItem from="1501150421680" duration="7016000" />
+      <workItem from="1501157964950" duration="5698000" />
+      <workItem from="1501221559651" duration="3703000" />
+      <workItem from="1501237593402" duration="388000" />
+      <workItem from="1501238006272" duration="11263000" />
+      <workItem from="1501250749948" duration="49000" />
+      <workItem from="1501313222678" duration="12028000" />
+      <workItem from="1501429783240" duration="9149000" />
+      <workItem from="1501482035647" duration="2181000" />
+      <workItem from="1501495596933" duration="6206000" />
+      <workItem from="1501504179445" duration="7723000" />
+      <workItem from="1501574253000" duration="20372000" />
+      <workItem from="1501663369548" duration="5319000" />
+      <workItem from="1502520898177" duration="8553000" />
+      <workItem from="1502692674040" duration="3664000" />
+      <workItem from="1502781713833" duration="6783000" />
+      <workItem from="1502874090189" duration="1415000" />
+      <workItem from="1503049728745" duration="4572000" />
+      <workItem from="1503060336920" duration="4312000" />
+      <workItem from="1503124440030" duration="4939000" />
+      <workItem from="1503129585642" duration="256000" />
+      <workItem from="1503130750985" duration="1662000" />
+      <workItem from="1508396365518" duration="6905000" />
+      <workItem from="1508408608445" duration="6000" />
+      <workItem from="1508408756948" duration="24000" />
+      <workItem from="1508408791089" duration="34000" />
+      <workItem from="1508408852115" duration="671000" />
+      <workItem from="1508409543093" duration="1000000" />
+      <workItem from="1508410768710" duration="7485000" />
+      <workItem from="1508481063225" duration="8055000" />
+      <workItem from="1508489824154" duration="1484000" />
+      <workItem from="1508492308164" duration="248000" />
+      <workItem from="1508492942512" duration="64000" />
+      <workItem from="1508495358027" duration="9795000" />
+      <workItem from="1508568472042" duration="3029000" />
+      <workItem from="1508607091068" duration="1377000" />
+      <workItem from="1508838497155" duration="2289000" />
+      <workItem from="1508851277075" duration="5509000" />
+      <workItem from="1508917446991" duration="9482000" />
+      <workItem from="1509368447621" duration="5509000" />
+      <workItem from="1509375769574" duration="6920000" />
+      <workItem from="1509609161226" duration="18231000" />
+      <workItem from="1509695915812" duration="1851000" />
+      <workItem from="1509706375895" duration="595000" />
+      <workItem from="1509788116131" duration="7191000" />
+      <workItem from="1509961850080" duration="80498000" />
+      <workItem from="1510255630985" duration="9587000" />
+      <workItem from="1510301632701" duration="17787000" />
+      <workItem from="1510386232400" duration="14515000" />
+      <workItem from="1510493991211" duration="6267000" />
+      <workItem from="1510747660124" duration="804000" />
+      <workItem from="1510750162013" duration="1198000" />
+      <workItem from="1510762503621" duration="500000" />
+      <workItem from="1510763029283" duration="1497000" />
+      <workItem from="1510766090043" duration="5990000" />
+      <workItem from="1510818304281" duration="5961000" />
+      <workItem from="1510828351793" duration="669000" />
+      <workItem from="1510829133581" duration="1460000" />
+      <workItem from="1510835170432" duration="1133000" />
+      <workItem from="1510836927617" duration="4309000" />
+      <workItem from="1510842049102" duration="586000" />
+      <workItem from="1510842920434" duration="863000" />
+      <workItem from="1510846519407" duration="2828000" />
+      <workItem from="1511168007193" duration="78772000" />
+      <workItem from="1511508671222" duration="20313000" />
+      <workItem from="1511596829297" duration="11683000" />
+      <workItem from="1511767924472" duration="20043000" />
+      <workItem from="1511796398945" duration="16363000" />
+      <workItem from="1511910546680" duration="28000" />
+      <workItem from="1511959308940" duration="32000" />
+      <workItem from="1512027561027" duration="16530000" />
+      <workItem from="1512050697135" duration="4029000" />
+      <workItem from="1512374581156" duration="1054000" />
+      <workItem from="1512375744755" duration="23121000" />
+      <workItem from="1512734841450" duration="2205000" />
+      <workItem from="1512978673778" duration="19958000" />
+      <workItem from="1513066280297" duration="17183000" />
+      <workItem from="1513153118005" duration="17479000" />
+      <workItem from="1513238311033" duration="1800000" />
+      <workItem from="1513328463506" duration="625000" />
+      <workItem from="1513329616711" duration="534000" />
+      <workItem from="1513683690561" duration="51000" />
+      <workItem from="1513685013249" duration="684000" />
+      <workItem from="1513686144697" duration="597000" />
+      <workItem from="1513688194027" duration="815000" />
+      <workItem from="1513689122726" duration="591000" />
+      <workItem from="1513690349582" duration="1738000" />
+      <workItem from="1513692191287" duration="1696000" />
+      <workItem from="1513694055022" duration="1037000" />
+      <workItem from="1513754322321" duration="2230000" />
+      <workItem from="1513756760155" duration="1789000" />
+      <workItem from="1513758610202" duration="1838000" />
+      <workItem from="1513760500003" duration="1760000" />
+      <workItem from="1513762301794" duration="979000" />
+      <workItem from="1513764189117" duration="2154000" />
+      <workItem from="1513766412548" duration="1951000" />
+      <workItem from="1513768597646" duration="1787000" />
+      <workItem from="1513770461131" duration="1773000" />
+      <workItem from="1513772263575" duration="1874000" />
+      <workItem from="1513774173138" duration="2290000" />
+      <workItem from="1513777281629" duration="1926000" />
+      <workItem from="1513779241983" duration="1889000" />
+      <workItem from="1513781161624" duration="1814000" />
+      <workItem from="1513783005666" duration="1816000" />
+      <workItem from="1513793186256" duration="1791000" />
+      <workItem from="1513795060331" duration="2226000" />
+      <workItem from="1513798102297" duration="1783000" />
+      <workItem from="1513799956231" duration="1743000" />
+      <workItem from="1513801987986" duration="1692000" />
+      <workItem from="1513803832560" duration="1842000" />
+      <workItem from="1513806033207" duration="1882000" />
+      <workItem from="1513808003316" duration="1319000" />
+      <workItem from="1513841217396" duration="1741000" />
+      <workItem from="1513843137439" duration="1739000" />
+      <workItem from="1513845193414" duration="1730000" />
+      <workItem from="1513847059360" duration="1796000" />
+      <workItem from="1513849069711" duration="1838000" />
+      <workItem from="1513850954122" duration="1782000" />
+      <workItem from="1513852876700" duration="1640000" />
+      <workItem from="1513856378437" duration="1697000" />
+      <workItem from="1513858262827" duration="1530000" />
+      <workItem from="1513860096497" duration="1670000" />
+      <workItem from="1513862002091" duration="1613000" />
+      <workItem from="1513863861036" duration="1666000" />
+      <workItem from="1513865750122" duration="1906000" />
+      <workItem from="1513867772089" duration="1828000" />
+      <workItem from="1513869697828" duration="1911000" />
+      <workItem from="1513871708977" duration="1228000" />
+      <workItem from="1513928884557" duration="2115000" />
+      <workItem from="1513931306778" duration="1736000" />
+      <workItem from="1513933176019" duration="1452000" />
+      <workItem from="1513936249820" duration="667000" />
+      <workItem from="1513940803743" duration="1694000" />
+      <workItem from="1513943095275" duration="1042000" />
+      <workItem from="1513944948008" duration="598000" />
+      <workItem from="1513947082709" duration="1451000" />
+      <workItem from="1513949355730" duration="1809000" />
+      <workItem from="1513951248993" duration="1827000" />
+      <workItem from="1513953370321" duration="367000" />
+      <workItem from="1514281117572" duration="63000" />
+      <workItem from="1524053277323" duration="2692000" />
+      <workItem from="1524056289689" duration="6054000" />
+      <workItem from="1524125890353" duration="16687000" />
+      <workItem from="1524214120451" duration="18493000" />
+      <workItem from="1524313922191" duration="331000" />
+      <workItem from="1524322227359" duration="1282000" />
+      <workItem from="1524338054332" duration="6731000" />
+      <workItem from="1524400166512" duration="7452000" />
+      <workItem from="1525801139540" duration="10197000" />
+      <workItem from="1525852194669" duration="18000" />
+      <workItem from="1525897409721" duration="4525000" />
+      <workItem from="1525958839600" duration="693000" />
+      <workItem from="1526025459186" duration="54000" />
+      <workItem from="1526046086439" duration="45000" />
+      <workItem from="1526046174351" duration="266000" />
+      <workItem from="1526046627229" duration="10089000" />
+      <workItem from="1526290501411" duration="1060000" />
+      <workItem from="1526404252144" duration="396000" />
+      <workItem from="1526408838228" duration="342000" />
+      <workItem from="1526409235229" duration="4070000" />
+      <workItem from="1526414864204" duration="18783000" />
+      <workItem from="1526439962405" duration="5661000" />
+      <workItem from="1526639758357" duration="9649000" />
+      <workItem from="1526820378900" duration="11685000" />
+      <workItem from="1526851707733" duration="4766000" />
+      <workItem from="1526856622048" duration="16516000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2995529000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1852123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32598424" sideWeight="0.5087848" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="479" y="284" width="407" height="159" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5074627" sideWeight="0.49260354" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3633388" sideWeight="0.49121523" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://F:/Rahma Pc/travail/MedTraining/pfeProjet/src/Faculte/AdminBundle/Form/CommentaireType.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Faculte/FrontBundle/Controller/ClientController.php</url>
+          <line>5</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$USER_HOME$/Desktop/Les templates/[GET]-Metronic_v4.0-Responsive-Admin-Dashboard-Template/v4.0/theme/templates/frontend/page-gallery.html</url>
+          <line>509</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Faculte/FrontBundle/Resources/views/Front.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1385">
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/FrontBundle/Resources/views/Client/ajouter.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="87" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/FrontBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/FaculteCoachBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Controller/ActiviteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Controller/CoachController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Controller/GalerieController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Controller/ProduitController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Controller/TarifController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/ClientBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/ClientBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="38" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/ClientBundle/Resources/views/Client/profil.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/ClientBundle/Resources/views/Client.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Tarif/tarif.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/produit/produit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Galerie/galerie.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/ClientBundle/Resources/views/Client/modifier.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="50" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Coach/modifier.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Activite/activite.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Exercice/ajouter.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="31" column="69" lean-forward="false" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Controller/TarifController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Controller/ProduitController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Controller/GaleriepersonnelController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Controller/GalerieController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Controller/AdherentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Controller/ActiviteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#53#93#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/layoutCoach.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1199">
+          <caret line="108" column="55" lean-forward="false" selection-start-line="108" selection-start-column="55" selection-end-line="108" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/ClientBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="0" column="63" lean-forward="false" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Galerie/galerie.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/produit/produit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/layoutAdherent.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-589">
+          <caret line="60" column="63" lean-forward="false" selection-start-line="60" selection-start-column="63" selection-end-line="60" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Tarif/tarif.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Exercice/suit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Exercice/exercice.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#1;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Controller/ExerciceController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="81" column="5" lean-forward="false" selection-start-line="75" selection-start-column="4" selection-end-line="81" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Exercice/suit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Controller/ExerciceController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <element signature="e#53#93#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Exercice/liste.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="36" column="42" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Activite/activite.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Galeriepersonnel/ajouter.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Galeriepersonnel/afficher.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="49" column="137" lean-forward="false" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="137" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Exercice/modifier.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="108" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Galeriepersonnel/modifier.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="20" column="166" lean-forward="false" selection-start-line="20" selection-start-column="166" selection-end-line="20" selection-end-column="166" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/CoachBundle/Resources/views/Coach/profil.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Adherent/modifier.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Faculte/AdherantBundle/Resources/views/Adherent/profil.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

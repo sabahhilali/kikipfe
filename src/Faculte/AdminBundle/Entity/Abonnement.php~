@@ -1,0 +1,79 @@
+<?php
+
+namespace Faculte\AdminBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Abonnement
+ * @ORM\HasLifecycleCallbacks
+ * @ORM\Table(name="abonnement")
+ * @ORM\Entity(repositoryClass="Faculte\AdminBundle\Repository\AbonnementRepository")
+ */
+class Abonnement
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date_creation", type="datetime")
+     */
+    private $dateCreation;
+
+
+
+    /***********************************************************************/
+
+
+    /**
+     * @ORM\ManyToOne(targetEntity="Adherent", inversedBy="abonnements")
+     * @ORM\JoinColumn(name="adherent_id", referencedColumnName="id")
+     */
+
+    private $adherent;
+
+
+    /**
+     * @ORM\ManyToOne(targetEntity="Activite", inversedBy="abonnements")
+     * @ORM\JoinColumn(name="activite_id", referencedColumnName="id")
+     */
+
+    private $activite;
+
+
+    /***********************************************************************/
+
+
+    /**
+     * Convert object to string
+     *
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->getNom();
+    }
+
+
+    /***********************************************************************/
+
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->adherents = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+
+
+}

@@ -1,0 +1,124 @@
+{% extends "FaculteSuperAdminBundle::LayoutSuper.html.twig" %}
+ {% block content %}
+     <!-- BEGIN CONTENT -->
+     <div class="page-content-wrapper">
+         <!-- BEGIN CONTENT BODY -->
+         <div class="page-content">
+             <!-- BEGIN PAGE HEADER-->
+             <h3 class="page-title"> Gestion Des Actualités
+                 <small> Afficher la suit ... </small>
+             </h3>
+
+
+             <div class="page-bar">
+                 <ul class="page-breadcrumb">
+                     <li>
+                         <i class="icon-home"></i>
+                         <a href="{{ path('faculte_super_admin_homepage') }}">Accueil</a>
+                         <i class="fa fa-angle-right"></i>
+                     </li>
+                     <li>
+                         <i class="icon-notebook"></i>
+                         <a href="{{ path('faculte_super_admin_liste_actualite') }}"> Liste Des Actualités </a>
+                         <i class="fa fa-angle-right"></i>
+                     </li>
+                     <div class="btn btn-circle border-red-mint"style="color: #e43a45">
+                         <i class="icon-magnifier"></i>
+                         <span> Afficher la suit Actualités</span>
+                     </div>
+
+                 </ul>
+             </div>
+
+
+
+             <div class="row">
+                 <div class="col-md-12 ">
+                     <!-- BEGIN SAMPLE FORM PORTLET-->
+                     <div class="portlet light ">
+
+                         <div class="portlet-title">
+                             <div class="caption font-red-sunglo">
+                                 <i class="fa fa-file-text-o font-red-sunglo"></i>
+                                 <span class="caption-subject bold uppercase"> Afficher la suit d'Actualité </span>
+                             </div>
+                         </div>
+
+
+
+
+
+                         <div class="row">
+                             <div class="col-md-12 ">
+                                 <!-- BEGIN SAMPLE FORM PORTLET-->
+                                 <div class="portlet light ">
+
+                                     <div class="profile">
+                                         <div class="tabbable-line tabbable-full-width">
+                                             <ul class="nav nav-tabs">
+                                                 <li class="active">
+                                                     <a href="#tab_1_1" data-toggle="tab" aria-expanded="true">
+                                                         <i class="fa fa-star" style="color: gold"></i>
+                                                         {{ Actualite.id }}
+                                                     </a>
+                                                 </li>
+
+                                             </ul>
+                                             <div class="tab-content">
+                                                 <div class="tab-pane active" id="tab_1_1">
+                                                     <div class="row">
+                                                         <div class="col-md-4">
+                                                             <ul class="list-unstyled profile-nav">
+                                                                 <li>
+                                                                     <img src="{{ asset('files/actualites/'~Actualite.id~'/'~Actualite.pathFile) }}"
+                                                                          alt="Actualite" style="width: 300px;height: 300px;">
+                                                                 </li>
+                                                             </ul>
+                                                         </div>
+                                                         <div class="col-md-8">
+                                                             <div class="row">
+
+                                                                 <div class="col-md-8 profile-info">
+                                                                     <h1 class="font-green sbold uppercase">{{ Actualite.id }} </h1>
+                                                                     <br><br><br>
+                                                                     <ul class="list-inline">
+                                                                         <h4>
+                                                                             <li>
+                                                                                 <i class="fa fa-credit-card" style="color:#4bccd8"></i> Déscription : {{ Actualite.description }}
+                                                                             </li>
+                                                                            <br>
+                                                                         </h4>
+                                                                     </ul>
+                                                                 </div>
+                                                                 <!--end col-md-8-->
+                                                             </div>
+                                                             <!--end row-->
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                             <!--end tab-pane-->
+                                             <div class="form-actions" style="margin-left: 8%">
+                                                 <button type="submit" class="btn blue" onclick='location.href="{{ path('faculte_super_admin_modifier_actualite',{'idAct':Actualite.id}) }}"'>Mettre à jour</button>
+                                                 <button type="button" class="btn default" onclick='location.href="{{ path('faculte_super_admin_liste_actualite') }}"'>Annuler</button>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+
+                             <!-- END SAMPLE FORM PORTLET-->
+                         </div>
+
+
+
+
+
+                     </div>
+                     <!-- END SAMPLE FORM PORTLET-->
+                 </div>
+             </div>
+         </div>
+     </div>
+
+ {% endblock %}

@@ -1,0 +1,91 @@
+{% extends "FaculteSuperAdminBundle::LayoutSuper.html.twig" %}
+ {% block content  %}
+     <!-- BEGIN CONTENT -->
+     <div class="page-content-wrapper">
+         <!-- BEGIN CONTENT BODY -->
+         <div class="page-content">
+             <!-- BEGIN PAGE HEADER-->
+             <h3 class="page-title"> Gestion Des Tarifs <small> Modifier </small> </h3>
+
+
+
+
+
+             <div class="page-bar">
+                 <ul class="page-breadcrumb">
+                     <li>
+                         <i class="icon-home"></i>
+                         <a href="{{ path('faculte_super_admin_homepage') }}">Accueil</a>
+                         <i class="fa fa-angle-right"></i>
+                     </li>
+                     <li>
+                         <i class="icon-notebook"></i>
+                         <a href="{{ path('faculte_super_admin_liste_tarif') }}"> Liste Des Tarifs </a>
+                         <i class="fa fa-angle-right"></i>
+                     </li>
+                     <li>
+                         <div class="btn btn-circle border-red-mint"style="color: #e43a45">
+                             <i class="fa fa-edit"></i>
+                             <span> Modifier Tarif </span>
+                         </div>
+                     </li>
+                 </ul>
+             </div>
+
+
+
+
+
+
+             <div class="row">
+                 <div class="col-md-12 ">
+                     <!-- BEGIN SAMPLE FORM PORTLET-->
+                     <div class="portlet light ">
+
+                         <div class="portlet-title">
+                             <div class="caption font-red-sunglo">
+                                 <i class="fa fa-edit font-red-sunglo"></i>
+                                 <span class="caption-subject bold uppercase"> Modifier Tarif </span>
+                             </div>
+                         </div>
+
+                         <div class="portlet-body form">
+                             <form enctype="multipart/form-data" class="form-horizontal" action="{{ path('faculte_super_admin_modifier_tarif',{'idT':Tarif.id}) }}" method="POST" role="form" style="margin-left: 25%">
+                                 {{ form_errors(form) }}
+
+
+                                 <div class="form-group">
+                                     <label>Activité</label>
+                                     <div class="input-group col-md-4">
+                                         <span class="input-group-addon"><i class="fa fa-clone"></i></span>
+                                         {{ form_widget(form.activite,{'attr': {'class': 'form-control','placeholder':'Activité' }} ) }}
+                                     </div>
+                                 </div>
+
+
+                                 <div class="form-group">
+                                     <label>Tarif</label>
+                                     <div class="input-group col-md-4">
+                                         <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                                         {{ form_widget(form.prixT,{'attr': {'class': 'form-control','placeholder':'Tarif' }} ) }}
+                                     </div>
+                                 </div>
+
+
+
+                                 {{ form_rest(form) }}
+                                 <div class="form-actions" style="margin-left: 15%">
+                                     <button type="submit" class="btn blue">Mettre à jour</button>
+                                     <button type="button" class="btn default" onclick='location.href="{{ path('faculte_super_admin_liste_tarif') }}"'>Annuler</button>
+                                 </div>
+                             </form>
+                         </div>
+                     </div>
+                     <!-- END SAMPLE FORM PORTLET-->
+                 </div>
+             </div>
+         </div>
+     </div>
+ {% endblock %}
+
+
